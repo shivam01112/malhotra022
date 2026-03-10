@@ -1,0 +1,925 @@
+﻿<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Kars-html - Car Dealership HTML Template - About Us</title>
+    <meta name="author" content="Kars">
+    <meta name="description" content="Kars-html - Car Dealership HTML Template">
+    <meta name="keywords" content="Kars-html - Car Dealership HTML Template">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+   
+ 
+
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="../../css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+  <style>
+        /* Red theme for category section */
+        .category-sec-1 .category-card {
+            transition: all 0.3s ease;
+            border: 1px solid  rgba(7, 57, 106, 0.2) ;
+        }
+
+        .category-sec-1 .category-card:hover {
+            border-color: #07396a;
+            box-shadow: 0 8px 20px  rgba(7, 57, 106, 0.2) ;
+        }
+
+        .category-sec-1 .category-card {
+            transition: all 0.3s ease;
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 15px;
+            border: 2px solid  rgba(7, 57, 106, 0.2) ;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .category-sec-1 .category-card:hover {
+            border: 2px solid #07396a;
+            box-shadow: 0 8px 24px  rgba(7, 57, 106, 0.2) ;
+            transform: translateY(-5px);
+        }
+
+        .category-sec-1 .category-card:hover .box-title a {
+            color: #12426f;
+            font-weight: 700;
+        }
+
+        .category-sec-1 .box-title a {
+            color: #0c3d6c;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .category-sec-1 .box-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+
+        .category-sec-1 .slider-arrow {
+            background: #07396a;
+            color: white;
+            border: none;
+            transition: all 0.3s ease;
+        }
+
+        .category-sec-1 .slider-arrow:hover {
+            background: #052d54;
+            box-shadow: 0 6px 16px  rgba(7, 57, 106, 0.2) ;
+            transform: scale(1.05);
+        }
+
+        /* Red theme for feature section */
+        .feature-sec-1 .feature-list-1 {
+            transition: all 0.3s ease;
+            border: 1px solid  rgba(7, 57, 106, 0.2) ;
+        }
+
+        .feature-sec-1 .feature-list-1:hover {
+            border-color: #07396a;
+            box-shadow: 0 8px 20px  rgba(7, 57, 106, 0.2) ;
+        }
+
+        .feature-sec-1 .feature-list-1:hover .th-btn {
+            background: #07396a;
+        }
+
+        .feature-sec-1 .slider-arrow.default.radius {
+            background: #07396a;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .feature-sec-1 .slider-arrow.default.radius:hover {
+            background: #052d54;
+            box-shadow: 0 4px 12px  rgba(7, 57, 106, 0.2) ;
+        }
+
+        /* Product card styling */
+        .feature-sec-1 .feature-list-1 .box-title a {
+            color: #1a1a1a;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .feature-sec-1 .feature-list-1:hover .box-title a {
+            color: #07396a;
+        }
+
+        .feature-sec-1 .th-btn.sm.style3.pill {
+            background: #07396a !important;
+            color: white !important;
+            border: 2px solid #07396a !important;
+            font-weight: 600 !important;
+            transition: all 0.3s ease !important;
+        }
+
+        .feature-sec-1 .th-btn.sm.style3.pill:hover {
+            background: #052d54 !important;
+            border-color: #052d54 !important;
+            box-shadow: 0 4px 12px  rgba(7, 57, 106, 0.2)  !important;
+        }
+
+        .feature-sec-1 .box-text {
+            color: #999999 !important;
+            font-weight: 600 !important;
+        }
+
+        /* Enhanced Hero Banner Styling */
+        .hero-style4 {
+            max-width: 650px;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #07396a 0%, #0a6aaa 100%);
+            color: white;
+            padding: 10px 24px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: 1.2px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px  rgba(7, 57, 106, 0.2) ;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .hero-badge:hover {
+            box-shadow: 0 6px 20px  rgba(7, 57, 106, 0.2) ;
+            transform: translateY(-2px);
+        }
+
+        .hero-style4 .hero4-sub-title {
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #ffffff;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .hero-style4 .hero-title {
+            font-size: 45px;
+            font-weight: 800;
+            line-height: 1.2;
+            color: #ffffff;
+            margin-bottom: 20px;
+            letter-spacing: -0.5px;
+        }
+
+        .hero-style4 .hero-title .title2 {
+            color: #ffffff;
+            display: block;
+        }
+
+        /* ── 1960 Big Centrepiece ── */
+        .hero-1960-block {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            margin-bottom: 6px;
+        }
+        .hero-1960-est {
+            font-size: 25px;
+            font-weight: 800;
+            letter-spacing: 8px;
+            color: #ffffff;
+            text-transform: uppercase;
+            margin-bottom: -4px;
+            text-shadow: 0 0 12px  rgba(7, 57, 106, 0.2) ;
+            display: inline-block;
+        }
+        .hero-1960-num {
+            font-size: 88px;
+            font-weight: 900;
+            line-height: 1;
+            letter-spacing: 6px;
+            position: relative;
+            display: inline-block;
+            /* Solid white with red glow — fully on-brand */
+            color: #ffffff;
+            text-shadow:
+                0 0 0px #fff,
+                0 2px 12px rgba(0,0,0,0.6);
+            /* animation: pulse1960 3s ease-in-out infinite; */
+        }
+        /* red underline stroke accent */
+        .hero-1960-num::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, #07396a 0%, #0a6aaa 60%, transparent 100%);
+            border-radius: 4px;
+            margin-top: 10px;
+            box-shadow: 0 0 14px  rgba(7, 57, 106, 0.2) ;
+            animation: lineGrow 0.8s ease-out forwards 0.5s;
+            transform-origin: left;
+        }
+        @keyframes lineGrow {
+            from { transform: scaleX(0); }
+            to   { transform: scaleX(1); }
+        }
+        @keyframes pulse1960 {
+            0%,100% {
+                text-shadow: 0 0 0px #fff, 0 2px 12px rgba(0,0,0,0.6),
+                             0 0 30px rgba(7, 57, 106, 0.2);
+            }
+            50% {
+                text-shadow: 0 0 40px rgba(255,255,255,0.15), 0 2px 12px rgba(0,0,0,0.6),
+                             0 0 60px rgba(7, 57, 106, 0.45);
+            }
+        }
+        .hero-1960-since {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 5px;
+            color: #07396a;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+        .hero-1960-divider {
+            width: 60px;
+            height: 3px;
+            background: #07396a;
+            border-radius: 4px;
+            margin: 14px 0 20px 0;
+            box-shadow: 0 0 10px  rgba(7, 57, 106, 0.2) ;
+        }
+        @media (max-width: 991px) {
+            .hero-1960-num { font-size: 72px; }
+        }
+        @media (max-width: 575px) {
+            .hero-1960-num { font-size: 54px; letter-spacing: 4px; }
+        }
+
+        .hero-desc {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #d0d0d0;
+            margin: 25px 0 35px 0;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .th-btn.style2 {
+            background: linear-gradient(135deg, #07396a 0%, #0a6aaa 100%);
+            color: white;
+            border: 2px solid #07396a;
+            padding: 14px 32px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px  rgba(7, 57, 106, 0.2) ;
+        }
+
+        .th-btn.style2:hover {
+            background: linear-gradient(135deg, #052d54 0%, #0a6aaa 100%);
+            border-color: #052d54;
+            box-shadow: 0 6px 25px  rgba(7, 57, 106, 0.2) ;
+            transform: translateY(-2px);
+        }
+
+        .th-btn.style3.border-style {
+            background: transparent;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            padding: 12px 28px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .th-btn.style3.border-style:hover {
+            background: #07396a;
+            border-color: #07396a;
+            color: white;
+            box-shadow: 0 6px 25px  rgba(7, 57, 106, 0.2) ;
+            transform: translateY(-2px);
+        }
+
+        .th-btn i {
+            margin-left: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .th-btn:hover i {
+            transform: translate(3px, -3px);
+        }
+
+        /* Animation improvements */
+        @keyframes slideinup {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .slideinup[data-ani="slideinup"] {
+            animation: slideinup 0.6s ease-out forwards;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .hero-style4 .hero-title {
+                font-size: 42px;
+            }
+
+            .hero-style4 .hero4-sub-title {
+                font-size: 14px;
+            }
+
+            .hero-desc {
+                font-size: 15px;
+            }
+
+            .btn-group {
+                gap: 10px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hero-style4 .hero-title {
+                font-size: 32px;
+            }
+
+            .hero-style4 .hero4-sub-title {
+                font-size: 12px;
+                letter-spacing: 1px;
+            }
+
+            .hero-desc {
+                font-size: 14px;
+                margin: 20px 0 25px 0;
+            }
+
+            .btn-group {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .th-btn.style2,
+            .th-btn.style3.border-style {
+                width: 100%;
+                text-align: center;
+            }
+
+            .hero-badge {
+                font-size: 12px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+     
+
+<body class="bg-black2">
+    <div class="slider-drag-cursor">&lt;DRAG&gt;</div>
+   
+   
+    <div class="sidemenu-wrapper sidemenu-cart d-none d-lg-block">
+        <div class="sidemenu-content"><button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
+            <div class="widget woocommerce widget_shopping_cart">
+                <h3 class="widget_title">Shopping cart</h3>
+                <div class="widget_shopping_cart_content">
+                    <ul class="woocommerce-mini-cart cart_list product_list_widget">
+                        <li class="woocommerce-mini-cart-item mini_cart_item"><a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a> <a href="#"><img src="assets/img/product/product_1_1.png" alt="Cart Image">Bosco Apple Fruit</a>
+                            <span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>940.00</span></span></li>
+                        <li class="woocommerce-mini-cart-item mini_cart_item"><a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a> <a href="#"><img src="assets/img/product/product_1_2.png" alt="Cart Image">Green Cauliflower</a>
+                            <span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>899.00</span></span></li>
+                        <li class="woocommerce-mini-cart-item mini_cart_item"><a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a> <a href="#"><img src="assets/img/product/product_1_3.png" alt="Cart Image">Mandarin orange</a> <span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>756.00</span></span></li>
+                        <li class="woocommerce-mini-cart-item mini_cart_item"><a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a> <a href="#"><img src="assets/img/product/product_1_4.png" alt="Cart Image">Shallot Red onion</a>
+                            <span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>723.00</span></span></li>
+                        <li class="woocommerce-mini-cart-item mini_cart_item"><a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a> <a href="#"><img src="assets/img/product/product_1_5.png" alt="Cart Image">Sour Red Cherry</a> <span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>1080.00</span></span></li>
+                    </ul>
+                    <p class="woocommerce-mini-cart__total total"><strong>Subtotal:</strong> <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>4398.00</span></p>
+                    <p class="woocommerce-mini-cart__buttons buttons"><a href="cart.html" class="th-btn wc-forward">View
+                            cart</a> <a href="checkout.html" class="th-btn checkout wc-forward">Checkout</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-search-box d-none d-lg-block"><button class="searchClose"><i class="fal fa-times"></i></button>
+        <form action="#"><input type="text" placeholder="What are you looking for?"> <button type="submit"><i class="fal fa-search"></i></button></form>
+    </div>
+  <div class="th-menu-wrapper">
+      <div class="th-menu-area text-center">
+        <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+        <div class="mobile-logo">
+          <a href='index.htm'><img src="assets/images/new-bike-1.png" alt="Kars-html"></a>
+        </div>
+        <div class="th-mobile-menu">
+          <ul>
+            <li><a href='index.htm'>Home</a></li>
+            <li><a href='about.html'>About Us</a></li>
+            <li class="menu-item-has-children">
+              <a href='our-products.html'>Products</a>
+              <ul class="sub-menu">
+                <li><a href='our-products-1.html?category=parts'>Parts</a></li>
+                <li><a href='our-products-2.html?category=wheels'>Wheels</a></li>
+                <li><a href='our-products-3.html?category=engine'>Engine</a></li>
+                <li><a href='our-products-4.html?category=suspension'>Suspension</a></li>
+              </ul>
+            </li>
+            <li><a href='contact.html'>Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="header-top-bar">
+        <div class="container-fluid">
+            <div class="header-top-content">
+                <div class="header-contact-group">
+                    <a href="tel:+919999071727" style="color: #07396a !important;"><i class="fas fa-phone"></i> +91 9999071727</a>
+                    <a href="mailto:Info@malhotraengineering.com" style="color: #07396a !important;"><i class="fas fa-envelope"></i> Info@malhotraengineering.com</a>
+                </div>
+               
+                <form class="header-search-bar custom-header-search-bar" action="#" method="get" role="search">
+                    <input type="text" name="category" placeholder="Search by Maker/ Vehicle/ Part No. " aria-label="Search">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                
+                <div class="header-contact-btn">
+                    <a class='th-btn sm' href='contact.html' style='padding: 14px 11px;
+    font-size: 15px;
+    font-weight: 600;
+    background: #07396a;
+    color: #fff;
+    border-radius: 5px;
+    border: none;'>Contact
+                        Us <i class="fas fa-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="th-header header-layout2">
+        <div class="sticky-wrapper">
+            <div class="menu-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-auto">
+                            <div class="header-left-wrapper">
+                                <div class="header-logo">
+                                    <div class="logo-row">
+                                        <a href='index.htm' style='display: flex; align-items: center;'>
+                                            <img src="assets/images/Malhotra-Engineering-Work-logo.jpg" alt="malhotra" style=" width: 200px !important; height: auto !important; display: block;">
+                                        </a>
+                                        <a href='index.htm' style='display: flex; align-items: center;'>
+                                            <img src="assets/images/motojet-LOGO.png" alt="malhotra" style="height: 48px; width: auto; display: block;">
+                                        </a>
+                                        <a href='index.htm' style='display: flex; align-items: center;'>
+                                            <img src="assets/images/logo-3.png" alt="Logo 2" style="height: 48px; width: auto; display: block;  ">
+                                        </a>
+                                        <!-- <a href="index.html" style="display: flex; align-items: center;">
+                                            <img src="assets/images/motojet-LOGO.png" alt="Logo 3" style="height: 48px; width: auto; display: block;" />
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <nav class="main-menu d-none d-lg-inline-block">
+                                <ul>
+                                    <li><a href='index.htm'>Home</a></li>
+                                    <li><a href='about.html'>About Us</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href='our-products.html'>All Category</a>
+                                        <ul class="sub-menu">
+                                            <li><a href='weel-cylinder.html'>Wheel Cylinder Assy.</a></li>
+                                            <li><a href='our-products.html'>Master Cylinder Assy.</a></li>
+                                            <li><a href='clutch-cylinder.html'>Clutch Cylinder Assy.</a></li>
+                                            <li><a href='slave-cylinder.html'>Slave Cylinder Assy.</a></li>
+                                            <li><a href='category.html'>more category.....</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children" id="catalogue-dropdown">
+                                        <a href="#" id="catalogueMenuBtn">Catalogue </a>
+                                        <ul class="sub-menu" style="min-width:220px;">
+                                            <li><a href="#" class="catalogue-option" data-catalogue="complete">Complete catalogue</a></li>
+                                            <li><a href="#" class="catalogue-option" data-catalogue="new">New edition catalogue</a></li>
+                                            <li><a href="#" class="catalogue-option" data-catalogue="price">Price list catalogue</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"> Manufacturing Expertise</a></li>
+                                </ul>
+                            </nav>
+                            <button type="button" class="th-menu-toggle d-block d-lg-none">
+                                <i class="far fa-bars"></i>
+                            </button>
+                        </div>
+
+                        <!-- Language Selector Column -->
+                        <div class="col-auto d-none d-lg-flex align-items-center">
+                            <!-- Hidden Google Translate initializer -->
+                            <div id="google_translate_element"></div>
+
+                            <!-- Custom Language Button -->
+                            <div class="custom-lang-wrapper">
+                                <i class="fas fa-globe"></i>
+                                <span class="lang-label" id="langLabel">Language</span>
+                                <select id="customLangSelect" onchange="doGTranslate(this.value);document.getElementById('langLabel').textContent=this.options[this.selectedIndex].text||'Language';" aria-label="Select Language">
+                                    <option value="" style="color: #ffffff;">Language</option>
+                                    <option value="en|en" style="color: #ffffff;">English</option>
+                                    <option value="en|fr" style="color: #ffffff;">French</option>
+                                    <option value="en|es" style="color: #ffffff;">Spanish</option>
+                                    <option value="en|de" style="color: #ffffff;">German</option>
+                                </select>
+                                <i class="fas fa-chevron-down custom-lang-arrow"></i>
+                            </div>
+
+                            <style>
+                                /* Kill ALL Google Translate native UI */
+                                .goog-te-banner-frame,
+                                .goog-te-banner-frame.skiptranslate,
+                                #goog-gt-tt,
+                                .goog-te-balloon-frame,
+                                .goog-logo-link,
+                                .goog-te-gadget { display: none !important; }
+                                body, html { top: 0 !important; margin-top: 0 !important; }
+                                #google_translate_element { display: none !important; }
+
+                                .custom-lang-wrapper {
+                                    position: relative;
+                                    display: inline-flex;
+                                    align-items: center;
+                                    gap: 8px;
+                                    background: transparent;
+                                    border: 1.5px solid rgb(7 57 106);
+                                    border-radius: 6px;
+                                    padding: 0 10px 0 12px;
+                                    height: 38px;
+                                    cursor: pointer;
+                                    transition: all 0.25s ease;
+                                }
+                                .custom-lang-wrapper:hover {
+                                    border-color: #07396a;
+                                    background:  rgba(7, 57, 106, 0.2) ;
+                                    box-shadow: 0 0 0 3px  rgba(7, 57, 106, 0.2) ;
+                                }
+                                .custom-lang-wrapper .fa-globe {
+                                    color: #07396a;
+                                    font-size: 14px;
+                                    pointer-events: none;
+                                }
+                                .custom-lang-arrow {
+                                    color: rgb(7 57 106);
+                                    font-size: 11px;
+                                    pointer-events: none;
+                                    transition: color 0.25s ease;
+                                }
+                                .custom-lang-wrapper:hover .custom-lang-arrow {
+                                    color: #07396a;
+                                }
+                                .custom-lang-wrapper select {
+                                    position: absolute;
+                                    inset: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    opacity: 0;
+                                    cursor: pointer;
+                                    border: none;
+                                    background: transparent;
+                                    font-size: 14px;
+                                }
+                                /* visible label text */
+                                .custom-lang-wrapper .lang-label {
+                                    color: #07396a;
+                                    font-size: 0.88rem;
+                                    font-weight: 500;
+                                    white-space: nowrap;
+                                    pointer-events: none;
+                                }
+                            </style>
+
+                            <script type="text/javascript">
+                                function googleTranslateElementInit() {
+                                    new google.translate.TranslateElement({
+                                        pageLanguage: 'en',
+                                        autoDisplay: false
+                                    }, 'google_translate_element');
+                                }
+                                function doGTranslate(lang_pair) {
+                                    if (!lang_pair) return;
+                                    var lang = lang_pair.split('|')[1];
+                                    var selects = document.getElementsByTagName('select');
+                                    for (var i = 0; i < selects.length; i++) {
+                                        if (selects[i].className === 'goog-te-combo') {
+                                            selects[i].value = lang;
+                                            var evt = document.createEvent('HTMLEvents');
+                                            evt.initEvent('change', true, true);
+                                            selects[i].dispatchEvent(evt);
+                                            break;
+                                        }
+                                    }
+                                }
+                            </script>
+                            <script type="text/javascript" src="translate_a/element.js?cb=googleTranslateElementInit"></script>
+                        </div>
+                        <div class="col-auto d-none d-xl-block">
+                            <!-- <div class="car-bottom">
+                                ...search bar removed as per instructions...
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="breadcumb-wrapper" data-bg-src="assets/images/bread-crum.jpg" data-overlay="black" data-opacity="3">
+        <div class="container">
+            <div class="breadcumb-content">
+                <h1 class="breadcumb-title">About Us</h1>
+                <ul class="breadcumb-menu">
+                    <li><a href='index.htm'>Home</a></li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+
+ <div class="about-1-wrapper overflow-hidden" id="about-sec">
+        <div class="container">
+            <div class="row gy-40 flex-wrap-reverse justify-content-center align-items-center">
+                <!-- About Image Column -->
+                <div class="col-xl-5">
+                    <div class="img-box1 about-1">
+                        <div class="img1">
+                            <img class="tilt-active" src="assets/images/about-1.jpg" alt="About Malhotra Engineering">
+                        </div>
+                        <h3 class="box-title">
+                            <span class="number text-theme">
+                                <span class="counter-number">24</span>
+                            </span>
+                            <span class="plus text-theme">+</span>
+                            Years of Experience
+                        </h3>
+                    </div>
+                </div>
+
+                <!-- About Content Column -->
+                <div class="col-xl-7" style="margin: 0px;">
+                    <div class="title-area text-left mb-25">
+                        <h2 class="big-heading">About Us</h2>
+                        <span class="sub-title style-2 mt-2" style="font-size: 14px;">
+                            <!-- <img src="assets/img/icon/title-3_icon.svg" alt="Icon"> -->
+                          ABOUT MALHOTRA ENGINEERING 
+                        </span>
+                        <h2 class="sec-title">Precision-Engineered Solutions</h2>
+                        <p class="sec-text">
+                            Malhotra Engineering specializes in the manufacturing of hydraulic brake parts, rubber-to-metal bonded components, and precision rubber parts designed to meet the demanding performance requirements of modern vehicles. With strong technical capabilities and a commitment to innovation, the company delivers durable and high-performance solutions across domestic and international markets.
+                        </p>
+                        <p class="sec-text" style="margin-top: 15px;">
+                            The company offers a comprehensive range of components for heavy-duty commercial vehicles, trailers, earthmoving equipment, material handling systems, and agricultural vehicles, supporting Indian, European, Japanese, Chinese, and American applications.
+                        </p>
+                    </div>
+
+                    <!-- About Features -->
+                   
+
+                    <a class='th-btn style3 border-style' href='about.html'>
+                        More About Us <i class="fas fa-arrow-up-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <div class="why-sec-1 overflow-hidden  pb-5" id="why-sec">
+        <div class="shape-mockup" data-bottom="0%" data-left="0">
+            <img src="assets/img/shape/why-choose-shape-1.png" alt="shape">
+        </div>
+        <div class="container-fluid" style="width: 90%;">
+            <div class="row gy-50 align-items-center">
+                <div class="col-xl-6">
+                    <div class="why-choose-1-content-wrap pe-xl-5 me-xl-5">
+                        <div class="title-area text-left">
+                            <h2 class="big-heading">Choose Us</h2>
+                            <span class="sub-title style-2 mt-2">
+                                <span class="icon-wrap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                                    </svg>
+                                </span>
+                                Why Choose Us
+                            </span>
+                            <h2 class="sec-title">
+                                Precision Engineering & Manufacturing Excellence
+                            </h2>
+                            <p class="sec-text">
+                                Malhotra Engineering delivers advanced manufacturing solutions with state-of-the-art CNC systems and precision facilities. With 24+ years of proven expertise, we specialize in hydraulic brake parts, rubber-to-metal bonded components, and precision rubber parts for demanding commercial vehicle applications.
+                            </p>
+                        </div>
+                        <div class="why-1-bottom-wrapper">
+                            <div class="why-1-bottom-box">
+                                <div class="box-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                </div>
+                                <h3 class="box-title" style="color: #000;">Advanced CNC Manufacturing Capabilities</h3>
+                            </div>
+                            <div class="why-1-bottom-box">
+                                <div class="box-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                    </svg>
+                                </div>
+                                <h3 class="box-title" style="color: #000;">Comprehensive Quality Control Standards</h3>
+                            </div>
+                            <div class="why-1-bottom-box">
+                                <div class="box-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="box-title" style="color: #000;">International Market Compatibility Support</h3>
+                            </div>
+                            <div class="why-1-bottom-box">
+                                <div class="box-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                                        <polyline points="2 17 12 22 22 17"></polyline>
+                                        <polyline points="2 12 12 17 22 12"></polyline>
+                                    </svg>
+                                </div>
+                                <h3 class="box-title" style="color: #000;">Proven Technical Expertise & Innovation</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="why-choose-1-right">
+                        
+                        <img src="assets/images/why-choose.jpg" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modern Dark Theme Footer -->
+    <footer class="footer-dark">
+        <!-- Newsletter Section -->
+
+
+        <div class="footer-content">
+            <div class="container">
+                <!-- Main Footer Grid -->
+                <div class="row gy-5 mb-5">
+                    <!-- Company Info Section -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-column footer-col-brand">
+                            <div class="footer-brand">
+
+                                <img src="assets/images/Malhotra-Engineering-Work-logo.jpg" alt="malhotra">
+                                <div class="brand-accent"></div>
+                            </div>
+                            <p class="footer-desc">
+                                Premium automotive parts and components for all your vehicle needs. Quality,
+                                reliability, and performance in every product.
+                            </p>
+                            <div class="footer-social mt-5">
+                                <a href="#" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-link" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footer-column">
+                            <div class="section-header">
+                                <h4 class="footer-title">Quick Links</h4>
+                                <span class="section-dot"></span>
+                            </div>
+                            <ul class="footer-menu">
+                                <li><a href='index.htm'><i class="fas fa-chevron-right"></i>Home</a></li>
+                                <li><a href='about.html'><i class="fas fa-chevron-right"></i>About Us</a></li>
+                                <!-- <li><a href="our-products.html"><i class="fas fa-chevron-right"></i>Products</a></li> -->
+                                <li><a href='contact.html'><i class="fas fa-chevron-right"></i>Contact Us</a></li>
+                                <li><a href='career.html'><i class="fas fa-chevron-right"></i>Careers</a></li>
+                                <li><a href="assets/images/MAGICAL%20CATALOUGE%2013.10.2025.pdf" target="_blank"><i class="fas fa-chevron-right"></i>Catalogue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Products -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-column">
+                            <div class="section-header">
+                                <h4 class="footer-title">Products</h4>
+                                <span class="section-dot"></span>
+                            </div>
+                            <ul class="footer-menu">
+                                <li><a href='our-products-1.html?category=parts'><i class="fas fa-chevron-right"></i>Engine Parts</a></li>
+                                <li><a href='our-products-2.html?category=wheels'><i class="fas fa-chevron-right"></i>Wheels & Tyres</a></li>
+                                <li><a href='our-products-4.html?category=suspension'><i class="fas fa-chevron-right"></i>Suspension</a></li>
+                                <li><a href='our-products-6.html?category=accessories'><i class="fas fa-chevron-right"></i>Accessories</a></li>
+                                <li><a href='our-products.html'><i class="fas fa-chevron-right"></i>View All</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-column">
+                            <h4 class="footer-title mb-4">Get In Touch</h4>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <p class="contact-label">Address</p>
+                                        <p class="contact-text">123 Engineering Street, Industrial Area</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <p class="contact-label">Phone</p>
+                                        <p class="contact-text"><a href="tel:+919999071727">+91 9999071727</a><br><a href="tel:+919999517777">+91 9999517777</a></p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <p class="contact-label">Email</p>
+                                        <p class="contact-text"><a href="mailto:info@malhotraeng.com">info@malhotraeng.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <div class="footer-divider mt-5"></div>
+
+                <!-- Copyright & Bottom Section -->
+                <div class="row gy-3 align-items-center ">
+                    <div class="col-md-6">
+                        <p class="footer-copyright">
+                            &copy; 2025 Malhotra Engineering. All Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <ul class="footer-bottom-menu">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="scroll-top"><svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
+        </svg></div>
+    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

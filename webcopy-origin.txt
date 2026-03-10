@@ -1,0 +1,1280 @@
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\npm\bootstrap@5.3.2\dist\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat-7DW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat-7DW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat-JDG3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat-JDG3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat-JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat-JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat8gCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat8gCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat8JCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat8JCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat8JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat8JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat9uCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat9uCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat9XCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat9XCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat_XDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Avy4qCRAL19DksVat_XDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat-7DW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat-7DW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat-JDG3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat-JDG3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat-JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat-JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat8gCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat8gCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat8JCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat8JCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat8JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat8JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat9uCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat9uCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat9XCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat9XCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat_XDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86CPy4qCRAL19DksVat_XDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat-7DW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat-7DW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat-JDG3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat-JDG3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat-JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat-JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat8gCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat8gCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat8JCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat8JCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat8JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat8JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat9uCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat9uCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat9XCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat9XCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat_XDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Cvy4qCRAL19DksVat_XDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat-7DW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat-7DW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat-JDG3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat-JDG3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat-JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat-JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat8gCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat8gCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat8JCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat8JCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat8JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat8JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat9uCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat9uCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat9XCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat9XCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat_XDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Dvy4qCRAL19DksVat_XDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat-7DW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat-7DW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat-JDG3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat-JDG3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat-JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat-JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat8gCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat8gCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat8JCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat8JCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat8JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat8JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat9uCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat9uCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat9XCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat9XCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat_XDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Evy4qCRAL19DksVat_XDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat-7DW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat-7DW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat-JDG3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat-JDG3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat-JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat-JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat8gCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat8gCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat8JCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat8JCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat8JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat8JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat9uCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat9uCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat9XCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat9XCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat_XDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Gvy4qCRAL19DksVat_XDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat-7DW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat-7DW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat-JDG3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat-JDG3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat-JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat-JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat8gCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat8gCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat8JCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat8JCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat8JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat8JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat9uCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat9uCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat9XCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat9XCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat_XDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ivy4qCRAL19DksVat_XDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat-7DW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat-7DW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat-JDG3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat-JDG3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat-JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat-JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat8gCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat8gCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat8JCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat8JCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat8JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat8JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat9uCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat9uCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat9XCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat9XCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat_XDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Jvy4qCRAL19DksVat_XDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat-7DW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat-7DW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat-JDG3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat-JDG3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat-JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat-JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat8gCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat8gCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat8JCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat8JCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat8JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat8JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat9uCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat9uCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat9XCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat9XCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat_XDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvx4qCRAL19DksVat_XDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat-7DW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat-7DW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat-JDG3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat-JDG3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat-JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat-JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat8gCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat8gCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat8JCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat8JCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat8JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat8JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat9uCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat9uCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat9XCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat9XCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat_XDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Lvy4qCRAL19DksVat_XDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-7DW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-7DW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDG3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDG3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8gCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8gCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8JCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8JCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9uCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9uCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9XCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9XCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat_XDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat_XDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat-7DW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat-7DW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat-JDG3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat-JDG3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat-JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat-JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat8gCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat8gCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat8JCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat8JCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat8JDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat8JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat9uCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat9uCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat9XCm3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat9XCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat_XDW3z.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Ovy4qCRAL19DksVat_XDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAC5thTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAC5thTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAfJthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAfJthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAIpthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAIpthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAIpxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAIpxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAkJxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAkJxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAop1hTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAop1hTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAopxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwAopxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwARZthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwARZthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwA_JxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Ck8qZG40F9JadbnoEwA_JxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAC5thTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAC5thTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAfJthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAfJthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAIpthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAIpthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAIpxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAIpxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAkJxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAkJxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAop1hTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAop1hTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAopxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwAopxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwARZthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwARZthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwA_JxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CkcqZG40F9JadbnoEwA_JxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAC5thTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAC5thTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAfJthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAfJthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAIpthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAIpthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAIpxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAIpxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAkJxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAkJxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAop1hTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAop1hTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAopxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwAopxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwARZthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwARZthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwA_JxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl0qZG40F9JadbnoEwA_JxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAC5thTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAC5thTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAfJthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAfJthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAIpthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAIpthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAIpxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAIpxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAkJxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAkJxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAop1hTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAop1hTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAopxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwAopxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwARZthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwARZthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwA_JxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cl8qZG40F9JadbnoEwA_JxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAC5thTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAC5thTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAfJthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAfJthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAIpthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAIpthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAIpxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAIpxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAkJxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAkJxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAop1hTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAop1hTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAopxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwAopxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwARZthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwARZthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwA_JxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClcqZG40F9JadbnoEwA_JxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAC5thTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAC5thTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAfJthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAfJthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAIpthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAIpthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAIpxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAIpxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAkJxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAkJxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAop1hTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAop1hTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAopxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwAopxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwARZthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwARZthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwA_JxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8ClsqZG40F9JadbnoEwA_JxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAC5thTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAC5thTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAfJthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAfJthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAIpthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAIpthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAIpxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAIpxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAkJxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAkJxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAop1hTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAop1hTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAopxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwAopxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwARZthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwARZthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwA_JxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8Cm8qZG40F9JadbnoEwA_JxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAC5thTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAC5thTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAop1hTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAop1hTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwA_JxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwA_JxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAC5thTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAC5thTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAfJthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAfJthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAIpthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAIpthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAIpxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAIpxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAkJxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAkJxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAop1hTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAop1hTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAopxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwAopxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwARZthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwARZthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwA_JxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CncqZG40F9JadbnoEwA_JxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAC5thTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAC5thTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAfJthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAfJthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAIpthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAIpthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAIpxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAIpxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAkJxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAkJxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAop1hTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAop1hTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAopxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwAopxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwARZthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwARZthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwA_JxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnMqZG40F9JadbnoEwA_JxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAC5thTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAC5thTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAfJthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAfJthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAIpthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAIpthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAIpxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAIpxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAkJxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAkJxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAop1hTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAop1hTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAopxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwAopxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwARZthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwARZthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwA_JxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqpG40F9JadbnoEwA_JxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAC5thTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAC5thTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAfJthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAfJthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAIpthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAIpthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAIpxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAIpxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAkJxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAkJxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAop1hTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAop1hTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAopxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwAopxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwARZthTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwARZthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwA_JxhTg.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CnsqZG40F9JadbnoEwA_JxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiAyp8kv8JHgFVrJJLmE3tF.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiAyp8kv8JHgFVrJJLmE3tF.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5V1s.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiByp8kv8JHgFVrLBT5V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7V1s.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiByp8kv8JHgFVrLCz7V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDD4V1s.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiByp8kv8JHgFVrLDD4V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDz8V1s.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiByp8kv8JHgFVrLDz8V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6V1s.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiByp8kv8JHgFVrLEj6V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLFj_V1s.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiByp8kv8JHgFVrLFj_V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9V1s.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiByp8kv8JHgFVrLGT9V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLm111lEA.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiDyp8kv8JHgFVrJJLm111lEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLm21llEA.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiDyp8kv8JHgFVrJJLm21llEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLm81xlEA.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiDyp8kv8JHgFVrJJLm81xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmg1hlEA.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiDyp8kv8JHgFVrJJLmg1hlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmr19lEA.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiDyp8kv8JHgFVrJJLmr19lEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmv1plEA.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiDyp8kv8JHgFVrJJLmv1plEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmy15lEA.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiDyp8kv8JHgFVrJJLmy15lEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrFJA.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiEyp8kv8JHgFVrFJA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiGyp8kv8JHgFVrJJLedw.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiGyp8kv8JHgFVrJJLedw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiGyp8kv8JHgFVrLPTedw.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\s\poppins\v24\pxiGyp8kv8JHgFVrLPTedw.ttf
+Content Type: font/ttf
+
+Uri: https://quiet-empanada-0e8630.netlify.app/
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\index.htm
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/about
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\about.html
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/css/app.min.css
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\css\app.min.css
+Content Type: text/css
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/css/fontawesome.min.css
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\css\fontawesome.min.css
+Content Type: text/css
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/css/style.css
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\css\style.css
+Content Type: text/css
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/fonts/fontawesome/fa-brands-400.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\fonts\fontawesome\fa-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/fonts/fontawesome/fa-brands-400.woff2
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\fonts\fontawesome\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/fonts/fontawesome/fa-duotone-900.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\fonts\fontawesome\fa-duotone-900.ttf
+Content Type: font/ttf
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/fonts/fontawesome/fa-duotone-900.woff2
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\fonts\fontawesome\fa-duotone-900.woff2
+Content Type: font/woff2
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/fonts/fontawesome/fa-light-300.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\fonts\fontawesome\fa-light-300.ttf
+Content Type: font/ttf
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/fonts/fontawesome/fa-light-300.woff2
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\fonts\fontawesome\fa-light-300.woff2
+Content Type: font/woff2
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/fonts/fontawesome/fa-regular-400.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\fonts\fontawesome\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/fonts/fontawesome/fa-regular-400.woff2
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\fonts\fontawesome\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/fonts/fontawesome/fa-solid-900.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\fonts\fontawesome\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/fonts/fontawesome/fa-solid-900.woff2
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\fonts\fontawesome\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/fonts/fontawesome/fa-thin-100.ttf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\fonts\fontawesome\fa-thin-100.ttf
+Content Type: font/ttf
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/fonts/fontawesome/fa-thin-100.woff2
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\fonts\fontawesome\fa-thin-100.woff2
+Content Type: font/woff2
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/images/about-1.jpg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\images\about-1.jpg
+Content Type: image/jpeg
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/images/b1.jpg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\images\b1.jpg
+Content Type: image/jpeg
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/images/b2.jpg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\images\b2.jpg
+Content Type: image/jpeg
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/images/logo-3.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\images\logo-3.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/images/MAGICAL CATALOUGE 13.10.2025.pdf
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\images\MAGICAL CATALOUGE 13.10.2025.pdf
+Content Type: application/pdf
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/images/motojet-LOGO.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\images\motojet-LOGO.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/images/new-bike-1.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\images\new-bike-1.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/images/product-img.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\images\product-img.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/images/wheel.jpeg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\images\wheel.jpeg
+Content Type: image/jpeg
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/images/why-choose.jpg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\images\why-choose.jpg
+Content Type: image/jpeg
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/brand/brand_1_1.svg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\brand\brand_1_1.svg
+Content Type: image/svg+xml
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/brand/brand_1_2.svg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\brand\brand_1_2.svg
+Content Type: image/svg+xml
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/brand/brand_1_3.svg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\brand\brand_1_3.svg
+Content Type: image/svg+xml
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/brand/brand_1_4.svg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\brand\brand_1_4.svg
+Content Type: image/svg+xml
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/brand/brand_1_5.svg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\brand\brand_1_5.svg
+Content Type: image/svg+xml
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/brand/brand_1_6.svg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\brand\brand_1_6.svg
+Content Type: image/svg+xml
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/brand/brand_1_7.svg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\brand\brand_1_7.svg
+Content Type: image/svg+xml
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/contact/contact-page-thumb.jpg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\contact\contact-page-thumb.jpg
+Content Type: image/jpeg
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/android-icon-192x192.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\android-icon-192x192.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/apple-icon-114x114.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\apple-icon-114x114.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/apple-icon-120x120.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\apple-icon-120x120.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/apple-icon-144x144.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\apple-icon-144x144.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/apple-icon-152x152.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\apple-icon-152x152.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/apple-icon-180x180.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\apple-icon-180x180.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/apple-icon-57x57.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\apple-icon-57x57.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/apple-icon-60x60.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\apple-icon-60x60.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/apple-icon-72x72.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\apple-icon-72x72.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/apple-icon-76x76.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\apple-icon-76x76.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/favicon-16x16.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\favicon-16x16.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/favicon-32x32.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\favicon-32x32.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/favicon-96x96.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\favicon-96x96.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/favicons/manifest.json
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\favicons\manifest.json
+Content Type: application/json
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/featured/featured-1-1.jpg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\featured\featured-1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/featured/featured-1-2.jpg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\featured\featured-1-2.jpg
+Content Type: image/jpeg
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/featured/featured-1-3.jpg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\featured\featured-1-3.jpg
+Content Type: image/jpeg
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/featured/featured-1-4.jpg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\featured\featured-1-4.jpg
+Content Type: image/jpeg
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/featured/featured-1-5.jpg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\featured\featured-1-5.jpg
+Content Type: image/jpeg
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/featured/featured-1-6.jpg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\featured\featured-1-6.jpg
+Content Type: image/jpeg
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/gallery/gallery-1-3.jpg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\gallery\gallery-1-3.jpg
+Content Type: image/jpeg
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/icon/title-3_icon.svg
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\icon\title-3_icon.svg
+Content Type: image/svg+xml
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/product/product_1_1.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\product\product_1_1.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/product/product_1_2.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\product\product_1_2.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/product/product_1_3.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\product\product_1_3.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/product/product_1_4.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\product\product_1_4.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/product/product_1_5.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\product\product_1_5.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/shape/features-icon-bottom-5.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\shape\features-icon-bottom-5.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/img/shape/why-choose-shape-1.png
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\img\shape\why-choose-shape-1.png
+Content Type: image/png
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/js/app.min.js
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\js\app.min.js
+Content Type: application/javascript
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/js/main.js
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\js\main.js
+Content Type: application/javascript
+
+Uri: https://quiet-empanada-0e8630.netlify.app/assets/js/vendor/jquery-3.7.1.min.js
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\assets\js\vendor\jquery-3.7.1.min.js
+Content Type: application/javascript
+
+Uri: https://quiet-empanada-0e8630.netlify.app/brands
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\brands.html
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/career
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\career.html
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/category
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\category.html
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/contact
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\contact.html
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/our-products
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\our-products.html
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/our-products?category=accessories
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\our-products-6.html
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/our-products?category=brake
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\our-products-5.html
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/our-products?category=engine
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\our-products-3.html
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/our-products?category=parts
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\our-products-1.html
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/our-products?category=suspension
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\our-products-4.html
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/our-products?category=wheels
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\our-products-2.html
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/product-details
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\product-details.html
+Content Type: text/html
+
+Uri: https://quiet-empanada-0e8630.netlify.app/vehicles
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\vehicles.html
+Content Type: text/html
+
+Uri: https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\translate_a\element.js
+Content Type: text/javascript
+
+Uri: https://www.amcharts.com/lib/3/ammap.js
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\lib\3\ammap.js
+Content Type: application/x-javascript
+
+Uri: https://www.amcharts.com/lib/3/maps/js/worldLow.js
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\lib\3\maps\js\worldLow.js
+Content Type: application/x-javascript
+
+Uri: https://www.amcharts.com/lib/3/themes/none.js
+File Name: C:\Users\Lenovo\Desktop\malhotra\quiet-empanada-0e8630.netlify.app\lib\3\themes\none.js
+Content Type: application/x-javascript
+

@@ -1,0 +1,2761 @@
+﻿<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <style>
+        /* ══════════════════════════════════════════════
+           GLOBAL LIGHT THEME — overrides dark style.css
+        ══════════════════════════════════════════════ */
+        html, body,
+        body.bg-black2,
+        .bg-black2 body {
+            background-color: #ffffff !important;
+            color: #1a1a1a !important;
+        }
+        /* Kill all dark section backgrounds */
+        .bg-black2, .bg-dark1, .bg-dark2, .bg-dark3, .bg-dark4,
+        .th-hero-wrapper, .hero-inner,
+        .space, .space-top, .space-bottom {
+            background-color: transparent !important;
+        }
+        /* Dark text everywhere */
+        .bg-black2 p, .bg-black2 h1, .bg-black2 .h1,
+        .bg-black2 h2, .bg-black2 .h2, .bg-black2 h3, .bg-black2 .h3,
+        .bg-black2 h4, .bg-black2 .h4, .bg-black2 h5, .bg-black2 .h5,
+        .bg-black2 h6, .bg-black2 .h6 {
+            color: #1a1a1a !important;
+        }
+        p { color: #444444; }
+        h1, h2, h3, h4, h5, h6 { color: #1a1a1a; }
+        .sec-title, .sec-subtitle { color: #ffffff !important; }
+        /* Blue buttons */
+        .th-btn {
+            background-color: #07396a !important;
+            border-color: #07396a !important;
+            color: #ffffff !important;
+        }
+        .th-btn:hover, .th-btn.active {
+            background-color: #052d54 !important;
+            border-color: #052d54 !important;
+        }
+        /* Header top bar — light */
+        .header-top-bar {
+            background-color: #f4f7fb !important;
+            border-bottom: 1px solid #dce6f0;
+        }
+        .header-top-bar a, .header-top-bar * {
+            color: #e9eef2 !important;
+        }
+        /* Sticky header — white */
+        .th-header, .sticky-wrapper, .menu-area {
+            background-color: #ffffff !important;
+            box-shadow: 0 2px 12px rgba(7,57,106,0.08);
+        }
+        .main-menu ul li a {
+            color: #1a1a1a !important;
+        }
+        .main-menu ul li a:hover { color: #07396a !important; }
+        .sub-menu { background: #ffffff !important; border: 1px solid #dce6f0 !important; }
+        .sub-menu li a { color: #1a1a1a !important; }
+        /* Cards */
+        .feature-list-1, .category-card, .th-blog-card,
+        .th-team-card, .th-testimonial-card, .th-service-card {
+            background-color: #ffffff !important;
+            border-color: rgba(7,57,106,0.12) !important;
+        }
+        /* About Us & Why Choose Us — blue overlay background */
+        .about-1-wrapper {
+            background: linear-gradient(135deg, #ddeaf8 0%, #eaf3ff 60%, #f0f8ff 100%) !important;
+            position: relative;
+        }
+        .about-1-wrapper::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: rgb(7 57 106);
+            pointer-events: none;
+            z-index: 0;
+        }
+        .about-1-wrapper > * {
+            position: relative;
+            z-index: 1;
+        }
+        .why-sec-1 {
+            background: linear-gradient(135deg, #ddeaf8 0%, #eaf3ff 60%, #f0f8ff 100%) !important;
+            position: relative;
+        }
+        .why-sec-1::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: rgb(7 57 106);
+            pointer-events: none;
+            z-index: 0;
+        }
+        .why-sec-1 > * {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+    <style>
+        /* Hide ONLY Google Translate top banner/iframe, NOT the dropdown */
+        .goog-te-banner-frame,
+        .goog-te-banner-frame.skiptranslate {
+            display: none !important;
+            height: 0 !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+        }
+
+        html {
+            margin-top: 0 !important;
+        }
+
+        body {
+            top: 0 !important;
+        }
+
+        /* Hide Google Translate native widget — custom UI used instead */
+        #google_translate_element {
+            display: none !important;
+            visibility: hidden !important;
+            height: 0 !important;
+            overflow: hidden !important;
+        }
+
+        /* Hide Google Translate top banner */
+        .goog-te-banner-frame,
+        #goog-gt-tt,
+        .goog-te-balloon-frame,
+        .goog-te-menu-frame,
+        .goog-tooltip,
+        .goog-tooltip:hover {
+            display: none !important;
+        }
+
+        body {
+            top: 0 !important;
+        }
+
+        /* Always keep logo row and search bar in a single horizontal row, even on mobile */
+        .header-logo .logo-row {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            width: 100%;
+        }
+
+        .header-logo .header-search-bar {
+            margin-left: 32px;
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .header-logo .header-search-bar input[type="text"] {
+            padding: 7px 14px;
+            border-radius: 20px 0 0 20px;
+            border: 1px solid #07396a;
+            outline: none;
+            font-size: 1rem;
+            min-width: 120px;
+            background: #f0f4f8;
+            color: #fff;
+        }
+
+        .header-logo .header-search-bar button {
+            padding: 7px 16px;
+            border-radius: 0 20px 20px 0;
+            border: 1px solid #07396a;
+            border-left: none;
+            background: #07396a;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .header-logo .header-search-bar button:hover {
+            background: #052d54;
+        }
+
+        .header-logo .logo-row span,
+        .header-logo .logo-row a img {
+            text-align: left;
+            margin-left: 0;
+        }
+
+        .header-logo .logo-row a img {
+            height: 38px !important;
+            max-width: 120px;
+        }
+
+        .header-logo .logo-row span {
+            font-size: 1.4rem !important;
+        }
+    </style>
+    <style>
+        /* Responsive header logo row */
+        .header-logo .logo-row {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            flex-wrap: nowrap;
+        }
+
+        @media (max-width: 576px) {
+            .header-logo .logo-row {
+                flex-direction: column;
+                gap: 10px;
+                align-items: flex-start;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .header-logo .logo-row span,
+            .header-logo .logo-row a img {
+                text-align: left;
+                margin-left: 0;
+            }
+
+            .header-logo .logo-row a img {
+                height: 38px !important;
+                max-width: 120px;
+            }
+
+            .header-logo .logo-row span {
+                font-size: 1.4rem !important;
+            }
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Malhotra Engineering work</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="../../css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        /* Red theme for category section */
+        .category-sec-1 .category-card {
+            transition: all 0.3s ease;
+            border: 1px solid  rgba(7, 57, 106, 0.2) ;
+        }
+
+        .category-sec-1 .category-card:hover {
+            border-color: #07396a;
+            box-shadow: 0 8px 20px  rgba(7, 57, 106, 0.2) ;
+        }
+
+        .category-sec-1 .category-card {
+            transition: all 0.3s ease;
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 15px;
+            border: 2px solid  rgba(7, 57, 106, 0.2) ;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .category-sec-1 .category-card:hover {
+            border: 2px solid #07396a;
+            box-shadow: 0 8px 24px  rgba(7, 57, 106, 0.2) ;
+            transform: translateY(-5px);
+        }
+
+        .category-sec-1 .category-card:hover .box-title a {
+            color: #12426f;
+            font-weight: 700;
+        }
+
+        .category-sec-1 .box-title a {
+            color: #0c3d6c;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .category-sec-1 .box-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+
+        .category-sec-1 .slider-arrow {
+            background: #07396a;
+            color: white;
+            border: none;
+            transition: all 0.3s ease;
+        }
+
+        .category-sec-1 .slider-arrow:hover {
+            background: #052d54;
+            box-shadow: 0 6px 16px  rgba(7, 57, 106, 0.2) ;
+            transform: scale(1.05);
+        }
+
+        /* Red theme for feature section */
+        .feature-sec-1 .feature-list-1 {
+            transition: all 0.3s ease;
+            border: 1px solid  rgba(7, 57, 106, 0.2) ;
+        }
+
+        .feature-sec-1 .feature-list-1:hover {
+            border-color: #07396a;
+            box-shadow: 0 8px 20px  rgba(7, 57, 106, 0.2) ;
+        }
+
+        .feature-sec-1 .feature-list-1:hover .th-btn {
+            background: #07396a;
+        }
+
+        .feature-sec-1 .slider-arrow.default.radius {
+            background: #07396a;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .feature-sec-1 .slider-arrow.default.radius:hover {
+            background: #052d54;
+            box-shadow: 0 4px 12px  rgba(7, 57, 106, 0.2) ;
+        }
+
+        /* Product card styling */
+        .feature-sec-1 .feature-list-1 .box-title a {
+            color: #1a1a1a;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .feature-sec-1 .feature-list-1:hover .box-title a {
+            color: #07396a;
+        }
+
+        .feature-sec-1 .th-btn.sm.style3.pill {
+            background: #07396a !important;
+            color: white !important;
+            border: 2px solid #07396a !important;
+            font-weight: 600 !important;
+            transition: all 0.3s ease !important;
+        }
+
+        .feature-sec-1 .th-btn.sm.style3.pill:hover {
+            background: #052d54 !important;
+            border-color: #052d54 !important;
+            box-shadow: 0 4px 12px  rgba(7, 57, 106, 0.2)  !important;
+        }
+
+        .feature-sec-1 .box-text {
+            color: #999999 !important;
+            font-weight: 600 !important;
+        }
+
+        /* Enhanced Hero Banner Styling */
+        .hero-style4 {
+            max-width: 650px;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #07396a 0%, #0a6aaa 100%);
+            color: white;
+            padding: 10px 24px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: 1.2px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px  rgba(7, 57, 106, 0.2) ;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .hero-badge:hover {
+            box-shadow: 0 6px 20px  rgba(7, 57, 106, 0.2) ;
+            transform: translateY(-2px);
+        }
+
+        .hero-style4 .hero4-sub-title {
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #ffffff;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .hero-style4 .hero-title {
+            font-size: 45px;
+            font-weight: 800;
+            line-height: 1.2;
+            color: #ffffff;
+            margin-bottom: 20px;
+            letter-spacing: -0.5px;
+        }
+
+        .hero-style4 .hero-title .title2 {
+            color: #ffffff;
+            display: block;
+        }
+
+        /* ── 1960 Big Centrepiece ── */
+        .hero-1960-block {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            margin-bottom: 6px;
+        }
+        .hero-1960-est {
+            font-size: 25px;
+            font-weight: 800;
+            letter-spacing: 8px;
+            color: #ffffff;
+            text-transform: uppercase;
+            margin-bottom: -4px;
+            text-shadow: 0 0 12px  rgba(7, 57, 106, 0.2) ;
+            display: inline-block;
+        }
+        .hero-1960-num {
+            font-size: 88px;
+            font-weight: 900;
+            line-height: 1;
+            letter-spacing: 6px;
+            position: relative;
+            display: inline-block;
+            /* Solid white with red glow — fully on-brand */
+            color: #ffffff;
+            text-shadow:
+                0 0 0px #fff,
+                0 2px 12px rgba(0,0,0,0.6);
+            /* animation: pulse1960 3s ease-in-out infinite; */
+        }
+        /* red underline stroke accent */
+        .hero-1960-num::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, #ffffff 0%, #ffffff 60%, transparent 100%);
+            border-radius: 4px;
+            margin-top: 10px;
+            box-shadow: 0 0 14px  rgba(7, 57, 106, 0.2) ;
+            animation: lineGrow 0.8s ease-out forwards 0.5s;
+            transform-origin: left;
+        }
+        @keyframes lineGrow {
+            from { transform: scaleX(0); }
+            to   { transform: scaleX(1); }
+        }
+        @keyframes pulse1960 {
+            0%,100% {
+                text-shadow: 0 0 0px #fff, 0 2px 12px rgba(0,0,0,0.6),
+                             0 0 30px rgba(7, 57, 106, 0.2);
+            }
+            50% {
+                text-shadow: 0 0 40px rgba(255,255,255,0.15), 0 2px 12px rgba(0,0,0,0.6),
+                             0 0 60px rgba(7, 57, 106, 0.45);
+            }
+        }
+        .hero-1960-since {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 5px;
+            color: #07396a;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+        .hero-1960-divider {
+            width: 60px;
+            height: 3px;
+            background: #07396a;
+            border-radius: 4px;
+            margin: 14px 0 20px 0;
+            box-shadow: 0 0 10px  rgba(7, 57, 106, 0.2) ;
+        }
+        @media (max-width: 991px) {
+            .hero-1960-num { font-size: 72px; }
+        }
+        @media (max-width: 575px) {
+            .hero-1960-num { font-size: 54px; letter-spacing: 4px; }
+        }
+
+        .hero-desc {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #d0d0d0;
+            margin: 25px 0 35px 0;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .th-btn.style2 {
+            background: linear-gradient(135deg, #07396a 0%, #0a6aaa 100%);
+            color: white;
+            border: 2px solid #07396a;
+            padding: 14px 32px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px  rgba(7, 57, 106, 0.2) ;
+        }
+
+        .th-btn.style2:hover {
+            background: linear-gradient(135deg, #052d54 0%, #0a6aaa 100%);
+            border-color: #052d54;
+            box-shadow: 0 6px 25px  rgba(7, 57, 106, 0.2) ;
+            transform: translateY(-2px);
+        }
+
+        .th-btn.style3.border-style {
+            background: transparent;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            padding: 12px 28px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .th-btn.style3.border-style:hover {
+            background: #07396a;
+            border-color: #07396a;
+            color: white;
+            box-shadow: 0 6px 25px  rgba(7, 57, 106, 0.2) ;
+            transform: translateY(-2px);
+        }
+
+        .th-btn i {
+            margin-left: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .th-btn:hover i {
+            transform: translate(3px, -3px);
+        }
+
+        /* Animation improvements */
+        @keyframes slideinup {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .slideinup[data-ani="slideinup"] {
+            animation: slideinup 0.6s ease-out forwards;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .hero-style4 .hero-title {
+                font-size: 42px;
+            }
+
+            .hero-style4 .hero4-sub-title {
+                font-size: 14px;
+            }
+
+            .hero-desc {
+                font-size: 15px;
+            }
+
+            .btn-group {
+                gap: 10px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hero-style4 .hero-title {
+                font-size: 32px;
+            }
+
+            .hero-style4 .hero4-sub-title {
+                font-size: 12px;
+                letter-spacing: 1px;
+            }
+
+            .hero-desc {
+                font-size: 14px;
+                margin: 20px 0 25px 0;
+            }
+
+            .btn-group {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .th-btn.style2,
+            .th-btn.style3.border-style {
+                width: 100%;
+                text-align: center;
+            }
+
+            .hero-badge {
+                font-size: 12px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slider-drag-cursor">&lt;DRAG&gt;</div>
+    <!-- -->
+
+    <div class="sidemenu-wrapper sidemenu-cart d-none d-lg-block">
+        <div class="sidemenu-content">
+            <button class="closeButton sideMenuCls">
+                <i class="far fa-times"></i>
+            </button>
+            <div class="widget woocommerce widget_shopping_cart">
+                <h3 class="widget_title">Shopping cart</h3>
+                <div class="widget_shopping_cart_content">
+                    <ul class="woocommerce-mini-cart cart_list product_list_widget">
+                        <li class="woocommerce-mini-cart-item mini_cart_item">
+                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                            <a href="#"><img src="assets/img/product/product_1_1.png" alt="Cart Image">Bosco Apple
+                                Fruit</a>
+                            <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>940.00</span></span>
+                        </li>
+                        <li class="woocommerce-mini-cart-item mini_cart_item">
+                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                            <a href="#"><img src="assets/img/product/product_1_2.png" alt="Cart Image">Green
+                                Cauliflower</a>
+                            <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>899.00</span></span>
+                        </li>
+                        <li class="woocommerce-mini-cart-item mini_cart_item">
+                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                            <a href="#"><img src="assets/img/product/product_1_3.png" alt="Cart Image">Mandarin
+                                orange</a>
+                            <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>756.00</span></span>
+                        </li>
+                        <li class="woocommerce-mini-cart-item mini_cart_item">
+                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                            <a href="#"><img src="assets/img/product/product_1_4.png" alt="Cart Image">Shallot Red
+                                onion</a>
+                            <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>723.00</span></span>
+                        </li>
+                        <li class="woocommerce-mini-cart-item mini_cart_item">
+                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                            <a href="#"><img src="assets/img/product/product_1_5.png" alt="Cart Image">Sour Red
+                                Cherry</a>
+                            <span class="quantity">1 ×
+                                <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>1080.00</span></span>
+                        </li>
+                    </ul>
+                    <p class="woocommerce-mini-cart__total total">
+                        <strong>Subtotal:</strong>
+                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>4398.00</span>
+                    </p>
+                    <p class="woocommerce-mini-cart__buttons buttons">
+                        <a href="cart.html" class="th-btn wc-forward">View cart</a>
+                        <a href="checkout.html" class="th-btn checkout wc-forward">Checkout</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-search-box d-none d-lg-block">
+        <button class="searchClose"><i class="fal fa-times"></i></button>
+        <form action="#">
+            <input type="text" placeholder="What are you looking for?">
+            <button type="submit"><i class="fal fa-search"></i></button>
+        </form>
+    </div>
+    <div class="th-menu-wrapper">
+        <div class="th-menu-area text-center">
+            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+            <div class="mobile-logo">
+                <a href='index.htm'><img src="assets/images/new-bike-1.png" alt="Kars-html"></a>
+            </div>
+            <div class="th-mobile-menu">
+                <ul>
+                    <li><a href='index.htm'>Home</a></li>
+                    <li><a href='about.html'>About Us</a></li>
+                    <li class="menu-item-has-children">
+                        <a href='our-products.html'>Products</a>
+                        <ul class="sub-menu">
+                            <li><a href='our-products-1.html?category=parts'>Parts</a></li>
+                            <li><a href='our-products-2.html?category=wheels'>Wheels</a></li>
+                            <li><a href='our-products-3.html?category=engine'>Engine</a></li>
+                            <li><a href='our-products-4.html?category=suspension'>Suspension</a></li>
+                        </ul>
+                    </li>
+                    <li><a href='contact.html'>Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="header-top-bar">
+        <div class="container-fluid">
+            <div class="header-top-content">
+                <div class="header-contact-group">
+                    <a href="tel:+919999071727" style="color: #07396a !important;"><i class="fas fa-phone"></i> +91 9999071727</a>
+                    <a href="mailto:Info@malhotraengineering.com" style="color: #07396a !important;"><i class="fas fa-envelope"></i> Info@malhotraengineering.com</a>
+                </div>
+               
+                <form class="header-search-bar custom-header-search-bar" action="#" method="get" role="search">
+                    <input type="text" name="category" placeholder="Search by Maker/ Vehicle/ Part No. " aria-label="Search">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                
+                <div class="header-contact-btn">
+                    <a class='th-btn sm' href='contact.html' style='padding: 14px 11px;
+    font-size: 15px;
+    font-weight: 600;
+    background: #07396a;
+    color: #fff;
+    border-radius: 5px;
+    border: none;'>Contact
+                        Us <i class="fas fa-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="th-header header-layout2">
+        <div class="sticky-wrapper">
+            <div class="menu-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-auto">
+                            <div class="header-left-wrapper">
+                                <div class="header-logo">
+                                    <div class="logo-row">
+                                        <a href='index.htm' style='display: flex; align-items: center;'>
+                                            <img src="assets/images/Malhotra-Engineering-Work-logo.jpg" alt="malhotra" style=" width: 200px !important; height: auto !important; display: block;">
+                                        </a>
+                                        <a href='index.htm' style='display: flex; align-items: center;'>
+                                            <img src="assets/images/motojet-LOGO.png" alt="malhotra" style="height: 48px; width: auto; display: block;">
+                                        </a>
+                                        <a href='index.htm' style='display: flex; align-items: center;'>
+                                            <img src="assets/images/logo-3.png" alt="Logo 2" style="height: 48px; width: auto; display: block;  ">
+                                        </a>
+                                        <!-- <a href="index.html" style="display: flex; align-items: center;">
+                                            <img src="assets/images/motojet-LOGO.png" alt="Logo 3" style="height: 48px; width: auto; display: block;" />
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <nav class="main-menu d-none d-lg-inline-block">
+                                <ul>
+                                    <li><a href='index.htm'>Home</a></li>
+                                    <li><a href='about.html'>About Us</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href='our-products.html'>All Category</a>
+                                        <ul class="sub-menu">
+                                            <li><a href='weel-cylinder.html'>Wheel Cylinder Assy.</a></li>
+                                            <li><a href='our-products.html'>Master Cylinder Assy.</a></li>
+                                            <li><a href='clutch-cylinder.html'>Clutch Cylinder Assy.</a></li>
+                                            <li><a href='slave-cylinder.html'>Slave Cylinder Assy.</a></li>
+                                            <li><a href='category.html'>more category.....</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children" id="catalogue-dropdown">
+                                        <a href="#" id="catalogueMenuBtn">Catalogue </a>
+                                        <ul class="sub-menu" style="min-width:220px;">
+                                            <li><a href="#" class="catalogue-option" data-catalogue="complete">Complete catalogue</a></li>
+                                            <li><a href="#" class="catalogue-option" data-catalogue="new">New edition catalogue</a></li>
+                                            <li><a href="#" class="catalogue-option" data-catalogue="price">Price list catalogue</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"> Manufacturing Expertise</a></li>
+                                </ul>
+                            </nav>
+                            <button type="button" class="th-menu-toggle d-block d-lg-none">
+                                <i class="far fa-bars"></i>
+                            </button>
+                        </div>
+
+                        <!-- Language Selector Column -->
+                        <div class="col-auto d-none d-lg-flex align-items-center">
+                            <!-- Hidden Google Translate initializer -->
+                            <div id="google_translate_element"></div>
+
+                            <!-- Custom Language Button -->
+                            <div class="custom-lang-wrapper">
+                                <i class="fas fa-globe"></i>
+                                <span class="lang-label" id="langLabel">Language</span>
+                                <select id="customLangSelect" onchange="doGTranslate(this.value);document.getElementById('langLabel').textContent=this.options[this.selectedIndex].text||'Language';" aria-label="Select Language">
+                                    <option value="" style="color: #ffffff;">Language</option>
+                                    <option value="en|en" style="color: #1a1a1a;">English</option>
+                                    <option value="en|fr" style="color: #1a1a1a;">French</option>
+                                    <option value="en|es" style="color: #1a1a1a;">Spanish</option>
+                                    <option value="en|de" style="color: #1a1a1a;">German</option>
+                                </select>
+                                <i class="fas fa-chevron-down custom-lang-arrow"></i>
+                            </div>
+
+                            <style>
+                                /* Kill ALL Google Translate native UI */
+                                .goog-te-banner-frame,
+                                .goog-te-banner-frame.skiptranslate,
+                                #goog-gt-tt,
+                                .goog-te-balloon-frame,
+                                .goog-logo-link,
+                                .goog-te-gadget { display: none !important; }
+                                body, html { top: 0 !important; margin-top: 0 !important; }
+                                #google_translate_element { display: none !important; }
+
+                                .custom-lang-wrapper {
+                                    position: relative;
+                                    display: inline-flex;
+                                    align-items: center;
+                                    gap: 8px;
+                                    background: transparent;
+                                    border: 1.5px solid rgb(7 57 106);
+                                    border-radius: 6px;
+                                    padding: 0 10px 0 12px;
+                                    height: 38px;
+                                    cursor: pointer;
+                                    transition: all 0.25s ease;
+                                }
+                                .custom-lang-wrapper:hover {
+                                    border-color: #07396a;
+                                    background:  rgba(7, 57, 106, 0.2) ;
+                                    box-shadow: 0 0 0 3px  rgba(7, 57, 106, 0.2) ;
+                                }
+                                .custom-lang-wrapper .fa-globe {
+                                    color: #07396a;
+                                    font-size: 14px;
+                                    pointer-events: none;
+                                }
+                                .custom-lang-arrow {
+                                    color: rgb(7 57 106);
+                                    font-size: 11px;
+                                    pointer-events: none;
+                                    transition: color 0.25s ease;
+                                }
+                                .custom-lang-wrapper:hover .custom-lang-arrow {
+                                    color: #07396a;
+                                }
+                                .custom-lang-wrapper select {
+                                    position: absolute;
+                                    inset: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    opacity: 0;
+                                    cursor: pointer;
+                                    border: none;
+                                    background: transparent;
+                                    font-size: 14px;
+                                }
+                                /* visible label text */
+                                .custom-lang-wrapper .lang-label {
+                                    color: #07396a;
+                                    font-size: 0.88rem;
+                                    font-weight: 500;
+                                    white-space: nowrap;
+                                    pointer-events: none;
+                                }
+                            </style>
+
+                            <script type="text/javascript">
+                                function googleTranslateElementInit() {
+                                    new google.translate.TranslateElement({
+                                        pageLanguage: 'en',
+                                        autoDisplay: false
+                                    }, 'google_translate_element');
+                                }
+                                function doGTranslate(lang_pair) {
+                                    if (!lang_pair) return;
+                                    var lang = lang_pair.split('|')[1];
+                                    var selects = document.getElementsByTagName('select');
+                                    for (var i = 0; i < selects.length; i++) {
+                                        if (selects[i].className === 'goog-te-combo') {
+                                            selects[i].value = lang;
+                                            var evt = document.createEvent('HTMLEvents');
+                                            evt.initEvent('change', true, true);
+                                            selects[i].dispatchEvent(evt);
+                                            break;
+                                        }
+                                    }
+                                }
+                            </script>
+                            <script type="text/javascript" src="translate_a/element.js?cb=googleTranslateElementInit"></script>
+                        </div>
+                        <div class="col-auto d-none d-xl-block">
+                            <!-- <div class="car-bottom">
+                                ...search bar removed as per instructions...
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="th-hero-wrapper hero-3" id="hero">
+        <div class="hero-3-right-circle"></div>
+
+        <div class="slider-3-pagination">
+            <button data-slider-prev="#heroSlider2" class="slider-arrow default show-all style-2">
+                <i class="far fa-arrow-left"></i>
+            </button>
+            <button data-slider-next="#heroSlider2" class="slider-arrow default show-all style-2">
+                <i class="far fa-arrow-right"></i>
+            </button>
+        </div>
+
+        <!-- 
+    <section class="hero-banner-section" style="position: relative; height:650px; overflow: hidden;">
+        <div class="swiper th-slider" id="heroBannerSlider" style="height: 100%;"
+            data-slider-options='{"loop": true, "autoplay": {"delay": 5000}, "effect": "fade"}'>
+            <div class="swiper-wrapper" style="height: 100%;">
+                <div class="swiper-slide" style="height: 100%;">
+                    <img src="assets/images/1hero.jpg" alt="Banner 1" style="width: 100%; height: 100%; object-fit: cover;" />
+                </div>
+                <div class="swiper-slide" style="height: 100%;">
+                    <img src="assets/images/2hero.jpg" alt="Banner 2" style="width: 100%; height: 100%; object-fit: cover;" />
+                </div>
+                <div class="swiper-slide" style="height: 100%;">
+                    <img src="assets/images/3rd-hero.jpg" alt="Banner 3" style="width: 100%; height: 100%; object-fit: cover;" />
+                </div>
+            </div>
+        </div>
+        <div class="banner-nav-buttons" style="position: absolute; bottom: 20px; right: 30px; z-index: 10; display: flex; gap: 10px;">
+            <button data-slider-prev="#heroBannerSlider" class="banner-nav-btn" style="background: #07396a; color: white; border: none; width: 45px; height: 45px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 18px; transition: all 0.3s ease; box-shadow: 0 4px 12px  rgba(7, 57, 106, 0.2) ;">
+                <i class="far fa-arrow-left"></i>
+            </button>
+            <button data-slider-next="#heroBannerSlider" class="banner-nav-btn" style="background: #07396a; color: white; border: none; width: 45px; height: 45px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 18px; transition: all 0.3s ease; box-shadow: 0 4px 12px  rgba(7, 57, 106, 0.2) ;">
+                <i class="far fa-arrow-right"></i>
+            </button>
+        </div>
+        <style>
+            .banner-nav-btn:hover {
+                background: #052d54;
+                box-shadow: 0 6px 16px  rgba(7, 57, 106, 0.2) ;
+                transform: scale(1.05);
+            }
+        </style>
+    </section> -->
+
+
+
+
+    </div>
+
+
+
+    <div class="th-hero-wrapper hero-4" id="hero">
+        <div class="slider-pagination slider-pagination-bottom-right"><button data-slider-prev="#heroSlider4" class="slider-arrow default show-all style-2"><i class="far fa-arrow-left"></i></button> <button data-slider-next="#heroSlider4" class="slider-arrow default show-all style-2"><i class="far fa-arrow-right"></i></button></div>
+        <div class="swiper th-slider swiper-fade swiper-initialized swiper-horizontal swiper-autoheight swiper-watch-progress swiper-backface-hidden" id="heroSlider4" data-slider-options="{&quot;effect&quot;:&quot;fade&quot;, &quot;autoHeight&quot;: &quot;true&quot;}">
+            <div class="swiper-wrapper" id="swiper-wrapper-2f4fff9e382e2716" aria-live="off" style="height: 770px; transition-duration: 0ms; transition-delay: 0ms;">
+                <div class="swiper-slide swiper-slide-next swiper-slide-prev" role="group" aria-label="1 / 3" style="width: 1521px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;" data-swiper-slide-index="0">
+                    <div class="hero-inner background-image" style="background-image:linear-gradient(to right, rgb(19, 53, 97) 26%, rgba(19, 53, 97, 0)), url(assets/images/b2.jpg);">
+                        <div class="container">
+                            <div class="row gy-4 gx-40 align-items-center">
+                                <div class="col-xl-6 col-lg-7">
+                                    <div class="hero-style4">
+                                        <!-- Sub label -->
+                                        <span class="hero4-sub-title slideinup" data-ani="slideinup" data-ani-delay="0.1s" style="animation-delay: 0.1s;">Premium &bull;  Hydraulic &bull; Brake &bull; Systems</span>
+
+                                        <!-- 1960 as main heading -->
+                                        <div class="hero-1960-block slideinup" data-ani="slideinup" data-ani-delay="0.2s" style="animation-delay: 0.2s;">
+                                            <span class="hero-1960-est mb-2">Since</span>
+                                            <span class="hero-1960-num">1960</span>
+                                            <!-- <span class="hero-1960-since">Industry Leader &mdash; 65+ Years of Excellence</span> -->
+                                        </div>
+
+                                        <!-- <div class="hero-1960-divider slideinup" data-ani="slideinup" data-ani-delay="0.35s" style="animation-delay: 0.35s;"></div> -->
+
+                                        <h2 class="hero-title slideinup mt-4" data-ani="slideinup" data-ani-delay="0.45s" style="animation-delay: 0.45s; font-size: 28px; font-weight: 700; color: #ffffff; margin-bottom: 12px; letter-spacing: 0.5px;">Company &bull; Vision &bull; <span style="color:#ffffff;">Excellence</span>
+                                        </h2>
+
+                                        <p class="hero-desc slideinup" data-ani="slideinup" data-ani-delay="0.6s" style="animation-delay: 0.6s; font-size: 15px; line-height: 1.7; color: #b0b0b0; margin: 10px 0 28px 0;">
+                                            Leading automotive innovation through commitment to quality, <br>advanced engineering, and sustainable industrial solutions.
+                                        </p>
+                                        <div class="btn-group justify-content-start gap-3 slideinup" data-ani="slideinup" data-ani-delay="0.8s" style="animation-delay: 0.8s;">
+                                            <a class='th-btn style3 border-style' href='about.html'>Know More <i class="fas fa-arrow-up-right"></i></a>
+                                            <a class='th-btn style3 border-style' href='contact.html'>Contact Us<i class="fas fa-arrow-up-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="2 / 3" style="width: 1521px; opacity: 1; transform: translate3d(-1521px, 0px, 0px); transition-duration: 0ms;" data-swiper-slide-index="1">
+                    <div class="hero-inner background-image" style="background-image: url(assets/images/bb2.jpg);">
+                        <div class="container">
+                            <div class="row gy-4 gx-40 align-items-center">
+                                <div class="col-xl-6 col-lg-7">
+                                    <div class="hero-style4">
+                                        <div class="hero-badge slideinup" data-ani="slideinup" data-ani-delay="0.1s" style="animation-delay: 0.1s; display: inline-block; background: #07396a; color: white; padding: 8px 20px; border-radius: 50px; font-size: 13px; font-weight: 700; letter-spacing: 1px; margin-bottom: 15px;">
+                                            ⭐ IN-HOUSE MANUFACTURING
+                                        </div>
+                                        <span class="hero4-sub-title slideinup" data-ani="slideinup" data-ani-delay="0.2s" style="animation-delay: 0.2s;">CNC • VMC • Advanced
+                                            Casting Technology</span>
+                                        <h1 class="hero-title slideinup" data-ani="slideinup" data-ani-delay="0.4s" style="animation-delay: 0.4s;">Complete Manufacturing <span class="title2">Capabilities</span>
+                                        </h1>
+                                        <p class="hero-desc slideinup" data-ani="slideinup" data-ani-delay="0.6s" style="animation-delay: 0.6s; font-size: 16px; line-height: 1.6; color: #d0d0d0; margin: 20px 0 30px 0;">
+                                            State-of-the-art facilities with CNC, VMC, Pressure Die Casting, Gravity
+                                            Casting, Injection Molding, and Cast Iron capabilities for superior
+                                            quality automotive components.
+                                        </p>
+                                        <div class="btn-group justify-content-start gap-3 slideinup" data-ani="slideinup" data-ani-delay="0.8s" style="animation-delay: 0.8s;">
+                                           
+                                            <a class='th-btn style3 border-style' href='our-products-4.html?category=suspension'>EXPLORE PRODUCTS <i class="fas fa-arrow-up-right"></i></a>
+                                             <a class='th-btn style3 border-style' href='contact.html'>CONTACT US <i class="fas fa-arrow-up-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="3 / 3" style="width: 1521px; opacity: 1; transform: translate3d(-1521px, 0px, 0px); transition-duration: 0ms;" data-swiper-slide-index="2">
+                    <div class="hero-inner background-image" style="background-image:linear-gradient(to right, rgba(0, 0, 0, 0)35%, rgba(0, 0, 0, 0)), url(assets/images/b3.jpg);">
+                        <div class="container">
+                            <div class="row gy-4 gx-40 align-items-center">
+                                <div class="col-xl-6 col-lg-7">
+                                    <div class="hero-style4">
+                                        <div class="hero-badge slideinup" data-ani="slideinup" data-ani-delay="0.1s" style="animation-delay: 0.1s; display: inline-block; background: #07396a; color: white; padding: 8px 20px; border-radius: 50px; font-size: 13px; font-weight: 700; letter-spacing: 1px; margin-bottom: 15px;">
+                                            ⭐ MASTER CATEGORIES
+                                        </div>
+                                        <span class="hero4-sub-title slideinup" data-ani="slideinup" data-ani-delay="0.2s" style="animation-delay: 0.2s;">Braking System • Automotive
+                                            Thermal Management</span>
+                                        <h1 class="hero-title slideinup" data-ani="slideinup" data-ani-delay="0.4s" style="animation-delay: 0.4s;">Engineering Product <span class="title2">Solutions</span>
+                                        </h1>
+                                        <p class="hero-desc slideinup" data-ani="slideinup" data-ani-delay="0.6s" style="animation-delay: 0.6s; font-size: 16px; line-height: 1.6; color: #d0d0d0; margin: 20px 0 30px 0;">
+                                            On clicking view categories, all categories will be shown with complete
+                                            details. Browse through our comprehensive range of automotive components
+                                            and engineering solutions available in our product portfolio.
+                                        </p>
+                                        <div class="btn-group justify-content-start gap-3 slideinup" data-ani="slideinup" data-ani-delay="0.8s" style="animation-delay: 0.8s;">
+                                            <a class='th-btn style3 border-style' href='our-products.html'>View All Categories <i class="fas fa-arrow-up-right"></i></a>
+                                            <a class='th-btn style3 border-style' href='contact.html'>GET IN TOUCH <i class="fas fa-arrow-up-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- About Section -->
+    <div class="about-1-wrapper overflow-hidden" id="about-sec">
+        <div class="container">
+            <div class="row gy-40 flex-wrap-reverse justify-content-center align-items-center">
+                <!-- About Image Column -->
+                <div class="col-xl-5">
+                    <div class="img-box1 about-1">
+                        <div class="img1">
+                            <img class="tilt-active" src="assets/images/about-1.jpg" alt="About Malhotra Engineering">
+                        </div>
+                        <h3 class="box-title" style="color:#fff;">
+                            <span class="number text-theme">
+                                <span class="counter-number">24</span>
+                            </span>
+                            <span class="plus text-theme">+</span>
+                            Years of Experience
+                        </h3>
+                    </div>
+                </div>
+
+                <!-- About Content Column -->
+                <div class="col-xl-7" style="margin: 0px;">
+                    <div class="title-area text-left mb-25">
+                        <h2 class="big-heading">About Us</h2>
+                       <span class="sub-title style-2 mt-2" style="font-size: 14px;">
+                            <!-- <img src="assets/img/icon/title-3_icon.svg" alt="Icon"> -->
+                          ABOUT MALHOTRA ENGINEERING 
+                        </span>
+                        <h2 class="sec-title">Precision-Engineered Solutions</h2>
+                        <p class="sec-text">
+                            Malhotra Engineering specializes in the manufacturing of hydraulic brake parts,
+                            rubber-to-metal bonded components, and precision rubber parts designed to meet the demanding
+                            performance requirements of modern vehicles. With strong technical capabilities and a
+                            commitment to innovation, the company delivers durable and high-performance solutions across
+                            domestic and international markets.
+                        </p>
+                        <p class="sec-text" style="margin-top: 15px;">
+                            The company offers a comprehensive range of components for heavy-duty commercial vehicles,
+                            trailers, earthmoving equipment, material handling systems, and agricultural vehicles,
+                            supporting Indian, European, Japanese, Chinese, and American applications.
+                        </p>
+                    </div>
+
+                    <!-- About Features -->
+
+
+                    <a class='th-btn style3 border-style' href='about.html'>
+                        More About Us <i class="fas fa-arrow-up-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="section-divider">
+    
+
+    <section class="category-sec-1 position-relative space arrow-wrap" style="     background-color: #07396a !important;  */
+    /* border-top: 3px solid #07396a; */
+    /* border-bottom: 3px solid #07396a; */
+    padding-top: 22px;
+    padding-bottom: 70px;    padding-top: 70px;">
+        <div class="container-fluid">
+
+            <div class="container">
+                <div class="row justify-content-lg-between justify-content-center align-items-end">
+                    <div class="col-lg-6">
+                        <div class="title-area text-center text-lg-start">
+                            <h2 class="sec-title" style="    color: #ffffff !important;">Browse by Category</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-auto d-none d-lg-block">
+                        <div class="sec-btn"><a class='th-btn style3 border-style' href='category.html' style='border: 1px solid #FFF;'>Explore All Categories
+                                <i class="fas fa-arrow-up-right"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-area">
+                <div class="swiper th-slider swiper-initialized swiper-horizontal" id="categorySlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"400":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"5"}, "1300":{"slidesPerView":"6"}}}'>
+                    <div class="swiper-wrapper" id="swiper-wrapper-fc61b5776965285b" aria-live="off" style="
+                transition-duration: 0ms;
+                transform: translate3d(-448px, 0px, 0px);
+                transition-delay: 0ms;
+              ">
+                        <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0" style="width: 200px; margin-right: 24px">
+                            <div class="category-card">
+                                <div class="box-icon">
+                                    <a href='category.html'>
+                                        <img src="assets/images/master-cylindr.png" alt="Image">
+                                    </a>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href='category.html'>Master Cylinder Assembly</a>
+                                </h3>
+                            </div>
+                        </div>
+                         <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0" style="width: 200px; margin-right: 24px">
+                            <div class="category-card">
+                                <div class="box-icon">
+                                    <a href='category.html'>
+                                        <img src="assets/images/master-cylindr.png" alt="Image">
+                                    </a>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href='category.html'>Master Cylinder Assembly</a>
+                                </h3>
+                            </div>
+                        </div>
+                         <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0" style="width: 200px; margin-right: 24px">
+                            <div class="category-card">
+                                <div class="box-icon">
+                                    <a href='category.html'>
+                                        <img src="assets/images/master-cylindr.png" alt="Image">
+                                    </a>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href='category.html'>Master Cylinder Assembly</a>
+                                </h3>
+                            </div>
+                        </div>
+                         <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0" style="width: 200px; margin-right: 24px">
+                            <div class="category-card">
+                                <div class="box-icon">
+                                    <a href='category.html'>
+                                        <img src="assets/images/master-cylindr.png" alt="Image">
+                                    </a>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href='category.html'>Master Cylinder Assembly</a>
+                                </h3>
+                            </div>
+                        </div>
+                         <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0" style="width: 200px; margin-right: 24px">
+                            <div class="category-card">
+                                <div class="box-icon">
+                                    <a href='category.html'>
+                                        <img src="assets/images/master-cylindr.png" alt="Image">
+                                    </a>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href='category.html'>Master Cylinder Assembly</a>
+                                </h3>
+                            </div>
+                        </div>
+                         <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0" style="width: 200px; margin-right: 24px">
+                            <div class="category-card">
+                                <div class="box-icon">
+                                    <a href='category.html'>
+                                        <img src="assets/images/master-cylindr.png" alt="Image">
+                                    </a>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href='category.html'>Master Cylinder Assembly</a>
+                                </h3>
+                            </div>
+                        </div>
+                         <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0" style="width: 200px; margin-right: 24px">
+                            <div class="category-card">
+                                <div class="box-icon">
+                                    <a href='category.html'>
+                                        <img src="assets/images/master-cylindr.png" alt="Image">
+                                    </a>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href='category.html'>Master Cylinder Assembly</a>
+                                </h3>
+                            </div>
+                        </div>
+                         <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0" style="width: 200px; margin-right: 24px">
+                            <div class="category-card">
+                                <div class="box-icon">
+                                    <a href='category.html'>
+                                        <img src="assets/images/master-cylindr.png" alt="Image">
+                                    </a>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href='category.html'>Master Cylinder Assembly</a>
+                                </h3>
+                            </div>
+                        </div>
+                         <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0" style="width: 200px; margin-right: 24px">
+                            <div class="category-card">
+                                <div class="box-icon">
+                                    <a href='category.html'>
+                                        <img src="assets/images/master-cylindr.png" alt="Image">
+                                    </a>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href='category.html'>Master Cylinder Assembly</a>
+                                </h3>
+                            </div>
+                        </div>
+                         <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0" style="width: 200px; margin-right: 24px">
+                            <div class="category-card">
+                                <div class="box-icon">
+                                    <a href='category.html'>
+                                        <img src="assets/images/master-cylindr.png" alt="Image">
+                                    </a>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href='category.html'>Master Cylinder Assembly</a>
+                                </h3>
+                            </div>
+                        </div>
+                         <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0" style="width: 200px; margin-right: 24px">
+                            <div class="category-card">
+                                <div class="box-icon">
+                                    <a href='category.html'>
+                                        <img src="assets/images/master-cylindr.png" alt="Image">
+                                    </a>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href='category.html'>Master Cylinder Assembly</a>
+                                </h3>
+                            </div>
+                        </div> <div class="swiper-slide" role="group" aria-label="1 / 12" data-swiper-slide-index="0" style="width: 200px; margin-right: 24px">
+                            <div class="category-card">
+                                <div class="box-icon">
+                                    <a href='category.html'>
+                                        <img src="assets/images/master-cylindr.png" alt="Image">
+                                    </a>
+                                </div>
+                                <h3 class="box-title">
+                                    <a href='category.html'>Master Cylinder Assembly</a>
+                                </h3>
+                            </div>
+                        </div>
+
+                       
+                       
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+                <button data-slider-prev="#categorySlider1" class="slider-arrow slider-prev style-2">
+                    <i class="far fa-arrow-left"></i>
+                </button>
+                <button data-slider-next="#categorySlider1" class="slider-arrow slider-next style-2">
+                    <i class="far fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <div class="gallery-sec-1 overflow-hidden space" style="background-color: #07396a !important;">
+        <div class="container">
+            <div class="row justify-content-lg-between justify-content-center align-items-end">
+                <div class="col-lg-6">
+                    <div class="title-area text-center text-lg-start">
+                        <h2 class="sec-title" style="    color: #fff !important;">Browse by Vehicle</h2>
+
+                    </div>
+                </div>
+                <div class="col-lg-auto d-none d-lg-block">
+                    <div class="sec-btn"><a class='th-btn style3 border-style' href='vehicles.html' style='border: 1px solid #FFF;'>Explore All Vehicles
+                            <i class="fas fa-arrow-up-right"></i></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="slider-area cursor-hovered-area">
+                <div class="swiper th-slider has-shadow gallery-1 swiper-initialized swiper-horizontal" id="gallerySlider1" data-slider-options="{&quot;centeredSlides&quot;:true,&quot;loop&quot;:true,&quot;breakpoints&quot;:{&quot;0&quot;:{&quot;slidesPerView&quot;:1},&quot;576&quot;:{&quot;slidesPerView&quot;:&quot;2&quot;},&quot;768&quot;:{&quot;slidesPerView&quot;:&quot;3&quot;},&quot;992&quot;:{&quot;slidesPerView&quot;:&quot;4&quot;},&quot;1200&quot;:{&quot;slidesPerView&quot;:&quot;4&quot;},&quot;1400&quot;:{&quot;slidesPerView&quot;:&quot;4&quot;}}}">
+                    <div class="swiper-wrapper" id="swiper-wrapper-cb8fdcd714300dff" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-2896.88px, 0px, 0px); transition-delay: 0ms;">
+
+
+                        <div class="swiper-slide" role="group" aria-label="12 / 12" data-swiper-slide-index="11" style="width: 362.25px; margin-right: 24px;">
+                            <div class="gallery-card gsap-cursor">
+                                <div class="gallery-img">
+                                    <a href='vehicles.html'>
+                                        <img src="assets/img/gallery/gallery-1-3.jpg" alt="gallery image">
+                                    </a>
+                                    <div class="gallery-content">
+                                        <h2 class="box-title"><a href='our-products.html'>Genesis</a></h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="12 / 12" data-swiper-slide-index="11" style="width: 362.25px; margin-right: 24px;">
+                            <div class="gallery-card gsap-cursor">
+                                <div class="gallery-img">
+                                    <a href='vehicles.html'>
+                                        <img src="assets/img/gallery/gallery-1-3.jpg" alt="gallery image">
+                                    </a>
+                                    <div class="gallery-content">
+                                        <h2 class="box-title"><a href='our-products.html'>Genesis</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="12 / 12" data-swiper-slide-index="11" style="width: 362.25px; margin-right: 24px;">
+                            <div class="gallery-card gsap-cursor">
+                                <div class="gallery-img">
+                                    <a href='vehicles.html'>
+                                        <img src="assets/img/gallery/gallery-1-3.jpg" alt="gallery image">
+                                    </a>
+                                    <div class="gallery-content">
+                                        <h2 class="box-title"><a href='our-products.html'>Genesis</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="12 / 12" data-swiper-slide-index="11" style="width: 362.25px; margin-right: 24px;">
+                            <div class="gallery-card gsap-cursor">
+                                <div class="gallery-img">
+                                    <a href='vehicles.html'>
+                                        <img src="assets/img/gallery/gallery-1-3.jpg" alt="gallery image">
+                                    </a>
+                                    <div class="gallery-content">
+                                        <h2 class="box-title"><a href='our-products.html'>Genesis</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="12 / 12" data-swiper-slide-index="11" style="width: 362.25px; margin-right: 24px;">
+                            <div class="gallery-card gsap-cursor">
+                                <div class="gallery-img">
+                                    <a href='vehicles.html'>
+                                        <img src="assets/img/gallery/gallery-1-3.jpg" alt="gallery image">
+                                    </a>
+                                    <div class="gallery-content">
+                                        <h2 class="box-title"><a href='our-products.html'>Genesis</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="12 / 12" data-swiper-slide-index="11" style="width: 362.25px; margin-right: 24px;">
+                            <div class="gallery-card gsap-cursor">
+                                <div class="gallery-img">
+                                    <a href='vehicles.html'>
+                                        <img src="assets/img/gallery/gallery-1-3.jpg" alt="gallery image">
+                                    </a>
+                                    <div class="gallery-content">
+                                        <h2 class="box-title"><a href='our-products.html'>Genesis</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="12 / 12" data-swiper-slide-index="11" style="width: 362.25px; margin-right: 24px;">
+                            <div class="gallery-card gsap-cursor">
+                                <div class="gallery-img">
+                                    <a href='vehicles.html'>
+                                        <img src="assets/img/gallery/gallery-1-3.jpg" alt="gallery image">
+                                    </a>
+                                    <div class="gallery-content">
+                                        <h2 class="box-title"><a href='our-products.html'>Genesis</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="12 / 12" data-swiper-slide-index="11" style="width: 362.25px; margin-right: 24px;">
+                            <div class="gallery-card gsap-cursor">
+                                <div class="gallery-img">
+                                    <a href='vehicles.html'>
+                                        <img src="assets/img/gallery/gallery-1-3.jpg" alt="gallery image">
+                                    </a>
+                                    <div class="gallery-content">
+                                        <h2 class="box-title"><a href='our-products.html'>Genesis</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="12 / 12" data-swiper-slide-index="11" style="width: 362.25px; margin-right: 24px;">
+                            <div class="gallery-card gsap-cursor">
+                                <div class="gallery-img">
+                                    <a href='vehicles.html'>
+                                        <img src="assets/img/gallery/gallery-1-3.jpg" alt="gallery image">
+                                    </a>
+                                    <div class="gallery-content">
+                                        <h2 class="box-title"><a href='our-products.html'>Genesis</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <section class="feature-sec-1  shape-mockup-wrap" style="    padding-top: 50px;
+    padding-bottom: 50px;background: #07396a; $m.Value -replace '227,\s*40,\s*1', '7, 57, 106'  100%); ">
+        <div class="shape-mockup moving" style="bottom: 0px; left: 3%;"><img src="assets/img/shape/features-icon-bottom-5.png" alt="shape"></div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row justify-content-lg-between justify-content-center align-items-end">
+                    <div class="col-lg-6">
+                        <div class="title-area text-center text-lg-start">
+                            <h2 class="sec-title" style="    color: #ffffff !important;">Browse by Brands</h2>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-auto d-none d-lg-block">
+                        <div class="sec-btn"><a class='th-btn style3 border-style' href='brands.html' style='border: 1px solid #FFF;'>Explore All Brands
+                                <i class="fas fa-arrow-up-right"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="swiper th-slider swiper-initialized swiper-horizontal" id="brand-slider-1" data-slider-options="{&quot;breakpoints&quot;:{&quot;0&quot;:{&quot;slidesPerView&quot;:2},&quot;576&quot;:{&quot;slidesPerView&quot;:&quot;2&quot;},&quot;768&quot;:{&quot;slidesPerView&quot;:&quot;3&quot;},&quot;992&quot;:{&quot;slidesPerView&quot;:&quot;4&quot;},&quot;1200&quot;:{&quot;slidesPerView&quot;:&quot;5&quot;},&quot;1400&quot;:{&quot;slidesPerView&quot;:&quot;6&quot;}}}">
+                        <div class="swiper-wrapper" id="swiper-wrapper-8876d1d6f526387e" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-896px, 0px, 0px); transition-delay: 0ms;">
+                            <div class="swiper-slide" role="group" aria-label="1 / 14" data-swiper-slide-index="0" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_1.svg" alt="Brand Logo"></a></div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="2 / 14" data-swiper-slide-index="1" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_2.svg" alt="Brand Logo"></a></div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="3 / 14" data-swiper-slide-index="2" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_3.svg" alt="Brand Logo"></a></div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-prev" role="group" aria-label="4 / 14" data-swiper-slide-index="3" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_4.svg" alt="Brand Logo"></a></div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-active" role="group" aria-label="5 / 14" data-swiper-slide-index="4" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_5.svg" alt="Brand Logo"></a></div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" role="group" aria-label="6 / 14" data-swiper-slide-index="5" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_6.svg" alt="Brand Logo"></a></div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="7 / 14" data-swiper-slide-index="6" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_7.svg" alt="Brand Logo"></a></div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="8 / 14" data-swiper-slide-index="7" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_1.svg" alt="Brand Logo"></a></div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="9 / 14" data-swiper-slide-index="8" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_2.svg" alt="Brand Logo"></a></div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="10 / 14" data-swiper-slide-index="9" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_3.svg" alt="Brand Logo"></a></div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="11 / 14" data-swiper-slide-index="10" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_4.svg" alt="Brand Logo"></a></div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="12 / 14" data-swiper-slide-index="11" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_5.svg" alt="Brand Logo"></a></div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="13 / 14" data-swiper-slide-index="12" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_6.svg" alt="Brand Logo"></a></div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="14 / 14" data-swiper-slide-index="13" style="width: 200px; margin-right: 24px;">
+                                <div class="brand-box"><a href='about.html'><img src="assets/img/brand/brand_1_7.svg" alt="Brand Logo"></a></div>
+                            </div>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="swiper th-slider has-shadow swiper-initialized swiper-horizontal" id="featureSlider5"
+                data-slider-options="{&quot;centeredSlides&quot;:false,&quot;loop&quot;:true,&quot;breakpoints&quot;:{&quot;0&quot;:{&quot;slidesPerView&quot;:1},&quot;576&quot;:{&quot;slidesPerView&quot;:&quot;1&quot;},&quot;768&quot;:{&quot;slidesPerView&quot;:&quot;2&quot;},&quot;992&quot;:{&quot;slidesPerView&quot;:&quot;3&quot;},&quot;1200&quot;:{&quot;slidesPerView&quot;:&quot;4&quot;},&quot;1400&quot;:{&quot;slidesPerView&quot;:&quot;5&quot;}}}">
+                <div class="swiper-wrapper" id="swiper-wrapper-efc4cf4c1bfe169f" aria-live="off"
+                    style="transition-duration: 1000ms; transform: translate3d(-2688px, 0px, 0px);">
+                    <div class="swiper-slide" role="group" aria-label="6 / 12" data-swiper-slide-index="5"
+                        style="width: 312px; margin-right: 24px;">
+                        <div class="feature-list-1 style-2">
+                            <div class="box-icon"><img src="assets/images/product-img.png" alt="image">
+
+                            </div>
+                            <div class="car-content">
+                                <div class="media-body">
+                                    <h3 class="box-title"><a href="our-products.html">COROLLA</a></h3>
+                                
+                                    <p class="box-text"><span>TOYOTA</p>
+                                </div>
+
+                                <div class="car-bottom">
+                                    <a class="th-btn sm style3 pill" href="">View Details <i
+                                            class="fas fa-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide" role="group" aria-label="6 / 12" data-swiper-slide-index="5"
+                        style="width: 312px; margin-right: 24px;">
+                        <div class="feature-list-1 style-2">
+                            <div class="box-icon"><img src="assets/images/product-img.png" alt="image">
+
+                            </div>
+                            <div class="car-content">
+                                <div class="media-body">
+                                    <h3 class="box-title"><a href="our-products.html">COROLLA</a></h3>
+                                  
+                                    <p class="box-text"><span>TOYOTA</p>
+                                </div>
+
+                                <div class="car-bottom">
+                                    <a class="th-btn sm style3 pill" href="">View Details <i
+                                            class="fas fa-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="6 / 12" data-swiper-slide-index="5"
+                        style="width: 312px; margin-right: 24px;">
+                        <div class="feature-list-1 style-2">
+                            <div class="box-icon"><img src="assets/images/product-img.png" alt="image">
+
+                            </div>
+                            <div class="car-content">
+                                <div class="media-body">
+                                    <h3 class="box-title"><a href="our-products.html">COROLLA</a></h3>
+                           
+                                    <p class="box-text"><span>TOYOTA</p>
+                                </div>
+
+                                <div class="car-bottom">
+                                    <a class="th-btn sm style3 pill" href="">View Details <i
+                                            class="fas fa-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="6 / 12" data-swiper-slide-index="5"
+                        style="width: 312px; margin-right: 24px;">
+                        <div class="feature-list-1 style-2">
+                            <div class="box-icon"><img src="assets/images/product-img.png" alt="image">
+
+                            </div>
+                            <div class="car-content">
+                                <div class="media-body">
+                                    <h3 class="box-title"><a href="our-products.html">COROLLA</a></h3>
+                         
+                                    <p class="box-text"><span>TOYOTA</p>
+                                </div>
+
+                                <div class="car-bottom">
+                                    <a class="th-btn sm style3 pill" href="">View Details <i
+                                            class="fas fa-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="6 / 12" data-swiper-slide-index="5"
+                        style="width: 312px; margin-right: 24px;">
+                        <div class="feature-list-1 style-2">
+                            <div class="box-icon"><img src="assets/images/product-img.png" alt="image">
+
+                            </div>
+                            <div class="car-content">
+                                <div class="media-body">
+                                    <h3 class="box-title"><a href="our-products.html">COROLLA</a></h3>
+                           
+                                    <p class="box-text"><span>TOYOTA</p>
+                                </div>
+
+                                <div class="car-bottom">
+                                    <a class="th-btn sm style3 pill" href="">View Details <i
+                                            class="fas fa-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="6 / 12" data-swiper-slide-index="5"
+                        style="width: 312px; margin-right: 24px;">
+                        <div class="feature-list-1 style-2">
+                            <div class="box-icon"><img src="assets/images/product-img.png" alt="image">
+
+                            </div>
+                            <div class="car-content">
+                                <div class="media-body">
+                                    <h3 class="box-title"><a href="our-products.html">COROLLA</a></h3>
+                                
+                                    <p class="box-text"><span>TOYOTA</p>
+                                </div>
+
+                                <div class="car-bottom">
+                                    <a class="th-btn sm style3 pill" href="">View Details <i
+                                            class="fas fa-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="6 / 12" data-swiper-slide-index="5"
+                        style="width: 312px; margin-right: 24px;">
+                        <div class="feature-list-1 style-2">
+                            <div class="box-icon"><img src="assets/images/product-img.png" alt="image">
+
+                            </div>
+                            <div class="car-content">
+                                <div class="media-body">
+                                    <h3 class="box-title"><a href="our-products.html">COROLLA</a></h3>
+                            
+                                    <p class="box-text"><span>TOYOTA</p>
+                                </div>
+
+                                <div class="car-bottom">
+                                    <a class="th-btn sm style3 pill" href="">View Details <i
+                                            class="fas fa-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="6 / 12" data-swiper-slide-index="5"
+                        style="width: 312px; margin-right: 24px;">
+                        <div class="feature-list-1 style-2">
+                            <div class="box-icon"><img src="assets/images/product-img.png" alt="image">
+
+                            </div>
+                            <div class="car-content">
+                                <div class="media-body">
+                                    <h3 class="box-title"><a href="our-products.html">COROLLA</a></h3>
+                              
+                                    <p class="box-text"><span>TOYOTA</p>
+                                </div>
+
+                                <div class="car-bottom">
+                                    <a class="th-btn sm style3 pill" href="">View Details <i
+                                            class="fas fa-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div> -->
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- <section class="feature-sec-3 space">
+      <div class="container">
+        <div class="feature-3-list-wrap">
+          <div class="feature-list-3">
+            <div class="feature-list-3__box-icon">
+              <img src="assets/img/icon/featured-3-1.svg" alt="image" />
+            </div>
+            <div class="feature-list-3__content">
+              <h3 class="box-title">All Car Makes</h3>
+              <p class="box-text">
+                Includes regular tasks like oil changes, tire rotations, and
+                fluid checks. These are essential to keep the vehicle running
+                efficiently and prevent major breakdowns.
+              </p>
+            </div>
+          </div>
+          <div class="feature-list-3">
+            <div class="feature-list-3__box-icon">
+              <img src="assets/img/icon/featured-3-2.svg" alt="image" />
+            </div>
+            <div class="feature-list-3__content">
+              <h3 class="box-title">Variety of Services</h3>
+              <p class="box-text">
+                Reputable auto repair shops offer transparent pricing and
+                detailed estimates before work begins. This includes explaining
+                the scope of work, required parts, and labor costs.
+              </p>
+            </div>
+          </div>
+          <div class="feature-list-3">
+            <div class="feature-list-3__box-icon">
+              <img src="assets/img/icon/featured-3-3.svg" alt="image" />
+            </div>
+            <div class="feature-list-3__content">
+              <h3 class="box-title">Quality Support</h3>
+              <p class="box-text">
+                Regular maintenance and timely repairs prevent small problems
+                from escalating into costly repairs. For example, changing the
+                oil regularly helps prevent engine wear.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <div class="counter-sec1" data-pos-for=".th-service-1" data-sec-pos="bottom-half">
+        <div class="counter-1-bg-wrap" data-bg-src="assets/img/bg/counter-1-bg.jpg">
+            <div class="container">
+                <div class="counter-card-wrap">
+                    <div class="counter-card">
+                        <div class="box-icon">
+                            <img src="assets/img/icon/counter_1_1.svg" alt="Icon" />
+                        </div>
+                        <div class="media-body">
+                            <h4 class="box-number">
+                                <span class="counter-number">2760 </span><span class="plus-simple">+</span>
+                            </h4>
+                            <p class="box-text">Success Projects</p>
+                        </div>
+                    </div>
+                    <div class="counter-card">
+                        <div class="box-icon">
+                            <img src="assets/img/icon/counter_1_2.svg" alt="Icon" />
+                        </div>
+                        <div class="media-body">
+                            <h4 class="box-number">
+                                <span class="counter-number">300 </span><span class="plus-simple">+</span>
+                            </h4>
+                            <p class="box-text">Professional Team</p>
+                        </div>
+                    </div>
+                    <div class="counter-card">
+                        <div class="box-icon">
+                            <img src="assets/img/icon/counter_1_3.svg" alt="Icon" />
+                        </div>
+                        <div class="media-body">
+                            <h4 class="box-number">
+                                <span class="counter-number">2660 </span><span class="plus-simple">+</span>
+                            </h4>
+                            <p class="box-text">Clients Satisfied</p>
+                        </div>
+                    </div>
+                    <div class="counter-card">
+                        <div class="box-icon">
+                            <img src="assets/img/icon/counter_1_4.svg" alt="Icon" />
+                        </div>
+                        <div class="media-body">
+                            <h4 class="box-number">
+                                <span class="counter-number">456 </span><span class="plus-simple">+</span>
+                            </h4>
+                            <p class="box-text">Winning Awards</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="why-sec-1 overflow-hidden" id="why-sec" style="padding-top: 60px;">
+        <div class="shape-mockup" data-bottom="0%" data-left="0">
+            <img src="assets/img/shape/why-choose-shape-1.png" alt="shape">
+        </div>
+        <div class="container-fluid" style="width: 90%;">
+            <div class="row gy-50 align-items-center">
+                <div class="col-xl-6">
+                    <div class="why-choose-1-content-wrap pe-xl-5 me-xl-5">
+                        <div class="title-area text-left">
+                            <h2 class="big-heading">Choose Us</h2>
+                            <span class="sub-title style-2 mt-2">
+                                <span class="icon-wrap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                Why Choose Us
+                            </span>
+                            <h2 class="sec-title" style="font-size: 34px;">
+                                Precision Engineering & Manufacturing Excellence
+                            </h2>
+                            <p class="sec-text">
+                                Malhotra Engineering delivers advanced manufacturing solutions with state-of-the-art CNC
+                                systems and precision facilities. With 24+ years of proven expertise, we specialize in
+                                hydraulic brake parts, rubber-to-metal bonded components, and precision rubber parts for
+                                demanding commercial vehicle applications.
+                            </p>
+                            <a class='th-btn style3 border-style' href='about.html'>
+                                More About Us <i class="fas fa-arrow-up-right"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="why-choose-1-right">
+
+                        <img src="assets/images/why-choose.jpg" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!--    
+    <div class="marquee-section overflow-hidden">
+        <div class="marquee-bg-wrap"></div>
+        <div class="marquee-wrapper">
+            <div class="marquee">
+                <div class="marquee-group">
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                </div>
+                <div aria-hidden="true" class="marquee-group">
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                    <div class="text">
+                        <a href="service.html"><img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />Cleaning
+                            Agency</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+
+    <section class="automotive-innovation" style="padding: 80px 0px 80px 0px;">
+        <div class="container-fluid">
+            <!-- Title Section -->
+            <div class="innovation-header text-center">
+                <h2 class="innovation-title">AUTOMOTIVE INNOVATIONS NEVER STOP</h2>
+                <p class="innovation-desc">
+                    As Malhotra is a well-established firm, We are distributing our qualitative range of auto parts to
+                    our clients. Our excellent experience for more than 60 years has helped us to understand throughly
+                    the needs of our clients.
+                </p>
+            </div>
+
+            <!-- Timeline Section -->
+            <div class="innovation-timeline">
+                <!-- Wavy Line SVG -->
+                <svg class="timeline-wave" preserveaspectratio="none" viewbox="0 0 1200 200">
+                    <path class="wave-path" d="M 0 100 Q 100 50, 200 100 T 400 100 Q 500 150, 600 100 T 800 100 Q 900 50, 1000 100 T 1200 100"></path>
+                </svg>
+
+                <!-- Timeline Items -->
+                <div class="timeline-container">
+
+                    <!-- 1960 -->
+                    <div class="timeline-item timeline-top">
+                        <div class="timeline-image-wrap">
+                            <img src="assets/images/1960.jpg" alt="1960">
+                        </div>
+                        <div class="timeline-dot dot-pink"></div>
+                        <div class="timeline-year">1960</div>
+                    </div>
+
+                    <!-- 1980 -->
+                    <div class="timeline-item timeline-bottom">
+                        <div class="timeline-year">1980</div>
+                        <div class="timeline-dot dot-cyan"></div>
+                        <div class="timeline-image-wrap">
+                            <img src="assets/images/1980.jpg" alt="1980">
+                        </div>
+                    </div>
+
+                    <!-- 1990 -->
+                    <div class="timeline-item timeline-top">
+                        <div class="timeline-image-wrap">
+                            <img src="assets/images/200.jpg" alt="1990">
+                        </div>
+                        <div class="timeline-dot dot-purple"></div>
+                        <div class="timeline-year">1990</div>
+                    </div>
+
+                    <!-- 2000 -->
+                    <div class="timeline-item timeline-bottom">
+                        <div class="timeline-year">2000</div>
+                        <div class="timeline-dot dot-green"></div>
+                        <div class="timeline-image-wrap">
+                            <img src="assets/images/1990.jpg" alt="2000">
+                        </div>
+                    </div>
+
+                    <!-- 2021 -->
+                    <div class="timeline-item timeline-top">
+                        <div class="timeline-image-wrap">
+                            <img src="assets/images/2021.jpg" alt="2021">
+                        </div>
+                        <div class="timeline-dot dot-orange"></div>
+                        <div class="timeline-year">2021</div>
+                    </div>
+
+                    <!-- 2025 -->
+                    <div class="timeline-item timeline-bottom">
+                        <div class="timeline-year">2025</div>
+                        <div class="timeline-dot dot-blue"></div>
+                        <div class="timeline-image-wrap">
+                            <img src="assets/images/2025-car.jpg" alt="2025">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- Countries We Serve Map Section -->
+    <style>
+      .countries-map-section {
+        background: #07396a;
+        padding: 70px 0 60px;
+      }
+      .countries-map-header {
+        text-align: center;
+        margin-bottom: 36px;
+      }
+      .countries-map-title {
+        font-size: 36px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 14px;
+      }
+      .countries-map-divider {
+        width: 60px;
+        height: 3px;
+        background: #07396a;
+        border-radius: 2px;
+        margin: 0 auto;
+      }
+      .countries-map-card {
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(7,57,106,0.10);
+        border: 1px solid #dce8f3;
+        padding: 28px 28px 18px;
+        position: relative;
+      }
+      #chartdiv {
+        width: 100%;
+        height: 480px;
+      }
+      .map-legend {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 16px;
+        font-size: 13px;
+        color: #666;
+        flex-wrap: wrap;
+      }
+      .map-legend-item {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        font-weight: 600;
+      }
+      .map-legend-dot {
+        width: 12px; height: 12px;
+        border-radius: 50%;
+        display: inline-block;
+        flex-shrink: 0;
+      }
+      .map-legend-dot.active { background: #07396a; }
+      .map-legend-dot.inactive { background: #cdd8e3; }
+      .countries-stats-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        padding: 28px 20px;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 2px 16px rgba(7,57,106,0.08);
+        border: 1px solid #dce8f3;
+      }
+      .countries-stat-item {
+        flex: 1;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .stat-number {
+        font-size: 42px;
+        font-weight: 800;
+        color: #07396a;
+        line-height: 1;
+      }
+      .stat-label {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #888888;
+        text-transform: uppercase;
+      }
+      .countries-stat-divider {
+        width: 1px; height: 54px;
+        background: #dce8f3;
+        flex-shrink: 0;
+        margin: 0 30px;
+      }
+      @media (max-width: 767px) {
+        #chartdiv { height: 260px; }
+        .countries-map-title { font-size: 26px; }
+        .stat-number { font-size: 28px; }
+        .countries-stat-divider { margin: 0 15px; }
+        .map-ol-badge { font-size: 10px !important; padding: 3px 9px !important; }
+        .map-ol-dot { width: 10px !important; height: 10px !important; }
+      }
+      /* Map overlay labels */
+      .map-ol-wrap { position: relative; }
+      .map-ol-labels { position: absolute; inset: 0; pointer-events: none; z-index: 20; }
+      .map-ol-item {
+        position: absolute;
+        display: flex; align-items: center; gap: 8px;
+        transform: translate(-50%, -50%);
+      }
+      .map-ol-left { flex-direction: row-reverse; }
+      .map-ol-dot {
+        width: 13px; height: 13px;
+        background: #ff5722;
+        border-radius: 50%;
+        border: 2.5px solid #fff;
+        box-shadow: 0 1px 8px rgba(255,87,34,0.5);
+        flex-shrink: 0;
+        position: relative;
+      }
+      .map-ol-dot::after {
+        content: '';
+        position: absolute; inset: -5px;
+        border-radius: 50%;
+        border: 2px solid rgba(255,87,34,0.45);
+        animation: mapDotPulse 2s ease-out infinite;
+      }
+      .map-ol-badge {
+        background: #07396a;
+        color: #fff;
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-size: 12px; font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+        white-space: nowrap;
+        box-shadow: 0 4px 14px rgba(7,57,106,0.45);
+        letter-spacing: 0.4px;
+        position: relative;
+        line-height: 1.3;
+      }
+      /* Badge arrow → pointing right toward dot */
+      .map-ol-badge::after {
+        content: '';
+        position: absolute; right: -6px; top: 50%;
+        transform: translateY(-50%);
+        border: 6px solid transparent;
+        border-right: 0;
+        border-left-color: #07396a;
+      }
+      /* India badge is on the LEFT side of dot, arrow points left toward dot */
+      .map-ol-left .map-ol-badge::after {
+        right: auto; left: -6px;
+        border-left-color: transparent; border-left: 0;
+        border-right: 6px solid #07396a;
+      }
+      @keyframes mapDotPulse {
+        0% { transform: scale(1); opacity: 1; }
+        100% { transform: scale(2.8); opacity: 0; }
+      }
+    </style>
+
+    <section class="countries-map-section">
+      <div class="container-fluid" style="max-width:1200px;">
+        <div class="countries-map-header">
+          <h2 class="countries-map-title">Countries We Serve</h2>
+          <div class="countries-map-divider"></div>
+        </div>
+        <div class="countries-map-card">
+          <div class="map-ol-wrap">
+            <div id="chartdiv"></div>
+            <div class="map-ol-labels">
+              <!-- India: badge LEFT of dot -->
+              <div class="map-ol-item map-ol-left" style="left:72%;top:50%">
+                <span class="map-ol-dot"></span>
+                <span class="map-ol-badge">India</span>
+              </div>
+              <!-- Sri Lanka: badge RIGHT of dot -->
+              <div class="map-ol-item" style="left:73%;top:59%">
+                <span class="map-ol-dot"></span>
+                <span class="map-ol-badge">Sri Lanka</span>
+              </div>
+              <!-- Nigeria: badge RIGHT of dot -->
+              <div class="map-ol-item" style="left:52%;top:57%">
+                <span class="map-ol-dot"></span>
+                <span class="map-ol-badge">Nigeria</span>
+              </div>
+              <!-- Egypt: badge RIGHT of dot -->
+              <div class="map-ol-item" style="left:58.5%;top:47%">
+                <span class="map-ol-dot"></span>
+                <span class="map-ol-badge">Egypt</span>
+              </div>
+            </div>
+          </div>
+          <div class="map-legend">
+            <div class="map-legend-item"><span class="map-legend-dot active"></span> Countries We Serve</div>
+            <div class="map-legend-item"><span class="map-legend-dot inactive"></span> Other Countries</div>
+          </div>
+        </div>
+        <div class="countries-stats-row">
+          <div class="countries-stat-item">
+            <span class="stat-number">4</span>
+            <span class="stat-label">KEY MARKETS</span>
+          </div>
+          <div class="countries-stat-divider"></div>
+          <div class="countries-stat-item">
+            <span class="stat-number">3</span>
+            <span class="stat-label">CONTINENTS</span>
+          </div>
+          <div class="countries-stat-divider"></div>
+          <div class="countries-stat-item">
+            <span class="stat-number">1960</span>
+            <span class="stat-label">YEAR ESTABLISHED</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+   
+
+    <!-- Modern Dark Theme Footer -->
+    <footer class="footer-dark">
+        <!-- Newsletter Section -->
+
+
+        <div class="footer-content">
+            <div class="container">
+                <!-- Main Footer Grid -->
+                <div class="row gy-5 mb-5">
+                    <!-- Company Info Section -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-column footer-col-brand">
+                            <div class="footer-brand">
+
+                                <img src="assets/images/Malhotra-Engineering-Work-logo.jpg" alt="malhotra">
+                                <div class="brand-accent"></div>
+                            </div>
+                            <p class="footer-desc">
+                                Premium automotive parts and components for all your vehicle needs. Quality,
+                                reliability, and performance in every product.
+                            </p>
+                            <div class="footer-social mt-5">
+                                <a href="#" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-link" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+                                <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footer-column">
+                            <div class="section-header">
+                                <h4 class="footer-title">Quick Links</h4>
+                                <span class="section-dot"></span>
+                            </div>
+                            <ul class="footer-menu">
+                                <li><a href='index.htm'><i class="fas fa-chevron-right"></i>Home</a></li>
+                                <li><a href='about.html'><i class="fas fa-chevron-right"></i>About Us</a></li>
+                                <!-- <li><a href="our-products.html"><i class="fas fa-chevron-right"></i>Products</a></li> -->
+                                <li><a href='contact.html'><i class="fas fa-chevron-right"></i>Contact Us</a></li>
+                                <li><a href='career.html'><i class="fas fa-chevron-right"></i>Careers</a></li>
+                                <li><a href="assets/images/MAGICAL%20CATALOUGE%2013.10.2025.pdf" target="_blank"><i class="fas fa-chevron-right"></i>Catalogue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Products -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-column">
+                            <div class="section-header">
+                                <h4 class="footer-title">Products</h4>
+                                <span class="section-dot"></span>
+                            </div>
+                            <ul class="footer-menu">
+                                <li><a href='our-products-1.html?category=parts'><i class="fas fa-chevron-right"></i>Engine Parts</a></li>
+                                <li><a href='our-products-2.html?category=wheels'><i class="fas fa-chevron-right"></i>Wheels & Tyres</a></li>
+                                <li><a href='our-products-4.html?category=suspension'><i class="fas fa-chevron-right"></i>Suspension</a></li>
+                                <li><a href='our-products-6.html?category=accessories'><i class="fas fa-chevron-right"></i>Accessories</a></li>
+                                <li><a href='our-products.html'><i class="fas fa-chevron-right"></i>View All</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-column">
+                            <h4 class="footer-title mb-4">Get In Touch</h4>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <p class="contact-label">Address</p>
+                                        <p class="contact-text">123 Engineering Street, Industrial Area</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <p class="contact-label">Phone</p>
+                                        <p class="contact-text"><a href="tel:+919999071727">+91 9999071727</a><br><a href="tel:+919999517777">+91 9999517777</a></p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <p class="contact-label">Email</p>
+                                        <p class="contact-text"><a href="mailto:info@malhotraeng.com">info@malhotraeng.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <div class="footer-divider mt-5"></div>
+
+                <!-- Copyright & Bottom Section -->
+                <div class="row gy-3 align-items-center ">
+                    <div class="col-md-6">
+                        <p class="footer-copyright">
+                            &copy; 2025 Malhotra Engineering. All Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <ul class="footer-bottom-menu">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="scroll-top">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="
+            transition: stroke-dashoffset 10ms linear 0s;
+            stroke-dasharray: 307.919, 307.919;
+            stroke-dashoffset: 307.919;
+          "></path>
+        </svg>
+    </div>
+    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- amCharts 3 world map -->
+    <script src="lib/3/ammap.js"></script>
+    <script src="lib/3/maps/js/worldLow.js"></script>
+    <script src="lib/3/themes/none.js"></script>
+
+        <!-- Bootstrap 5 CSS & JS for modal (CDN) -->
+        <script src="npm/bootstrap%405.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Catalogue Modal HTML -->
+        <div class="modal fade custom-modal-shadow" id="catalogueModal" tabindex="-1" aria-labelledby="catalogueModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content modal-red-shadow" style="background: #ffffff; color: #1a1a1a; border-radius: 18px; border: none;">
+                    <div class="modal-header" style="background: #ffffff; border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom: 1.5px solid #07396a; box-shadow: none;">
+                        <h5 class="modal-title" id="catalogueModalLabel" style="color: #07396a; font-weight: 700; letter-spacing: 0.5px; font-size: 1.18rem;">Catalogue Download Request</h5>
+                        <button type="button" class="btn-close custom-close-highlight" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="background: #ffffff; color: #1a1a1a;">
+                        <form id="catalogueForm">
+                            <div class="mb-3">
+                                <label for="companyName" class="form-label" style="color:#1a1a1a; font-weight:600;">Company Name</label>
+                                <input type="text" class="form-control" id="companyName" required="" style="background: #f4f7fb; color:#1a1a1a; border: 1.5px solid #c8d8eb; border-radius:7px; font-size:1rem;">
+                            </div>
+                            <div class="mb-3">
+                                <label for="personName" class="form-label" style="color:#1a1a1a; font-weight:600;">Person Name</label>
+                                <input type="text" class="form-control" id="personName" required="" style="background: #f4f7fb; color:#1a1a1a; border: 1.5px solid #c8d8eb; border-radius:7px; font-size:1rem;">
+                            </div>
+                            <div class="mb-3">
+                                <label for="businessType" class="form-label" style="color:#1a1a1a; font-weight:600;">Business Type</label>
+                                <select class="form-select" id="businessType" required="" style="background: #f4f7fb; color:#1a1a1a; border: 1.5px solid #c8d8eb; border-radius:7px; font-size:1rem;">
+                                    <option value="">Select</option>
+                                    <option value="Distributor">Distributor</option>
+                                    <option value="Retailer">Retailer</option>
+                                    <option value="Mechanic">Mechanic</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phoneNumber" class="form-label" style="color:#1a1a1a; font-weight:600;">Phone Number</label>
+                                <input type="tel" class="form-control" id="phoneNumber" required="" style="background: #f4f7fb; color:#1a1a1a; border: 1.5px solid #c8d8eb; border-radius:7px; font-size:1rem;">
+                            </div>
+                            <button type="submit" class="btn w-100" style="background: linear-gradient(135deg, #07396a 0%, #0a6aaa 100%); color: #fff; font-weight: 600; border-radius: 7px; border: none; box-shadow: 0 2px 8px rgba(7,57,106,0.18); font-size:1.08rem;">Submit</button>
+                        </form>
+                        <form id="codeForm" style="display:none;">
+                            <div class="mb-3">
+                                <label for="downloadCode" class="form-label" style="color:#1a1a1a; font-weight:600;">Enter Download Code</label>
+                                <input type="text" class="form-control" id="downloadCode" required="" style="background: #f4f7fb; color:#1a1a1a; border: 1.5px solid #c8d8eb; border-radius:7px; font-size:1rem;">
+                            </div>
+                            <button type="submit" class="btn w-100" style="background: linear-gradient(135deg, #07396a 0%, #0a6aaa 100%); color: #fff; font-weight: 600; border-radius: 7px; border: none; box-shadow: 0 2px 8px rgba(7,57,106,0.18); font-size:1.08rem;">Verify & Download</button>
+                        </form>
+                        <div id="downloadSection" style="display:none;">
+                            <div class="alert alert-success" style="background: #eaf3ff; color: #07396a; border: 1.5px solid #07396a; font-weight:600;">Code verified! Click below to download:</div>
+                            <a id="downloadLink" href="#" class="btn w-100" style="background: linear-gradient(135deg, #07396a 0%, #0a6aaa 100%); color: #fff; font-weight: 600; border-radius: 7px; border: none; box-shadow: 0 2px 8px rgba(7,57,106,0.18); font-size:1.08rem;" download="">Download Catalogue</a>
+                        </div>
+                            <style>
+                            /* Restore default modal backdrop */
+                            .modal-backdrop.show {
+                                background: rgba(34,34,34,0.65);
+                                backdrop-filter: blur(2.5px);
+                            }
+                            /* Red shadow only on modal border */
+                            .modal-red-shadow {
+                                box-shadow: 0 0 0 4px rgba(7,57,106,0.20), 0 12px 48px 0 rgba(7,57,106,0.15);
+                            }
+                            .custom-close-highlight {
+                                background: #f4f7fb;
+                                border-radius: 50% !important;
+                                opacity: 1 !important;
+                                box-shadow: 0 2px 8px rgba(7,57,106,0.12);
+                                color: #07396a !important;
+                                width: 36px;
+                                height: 36px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 1.5rem;
+                                border: 2px solid #07396a;
+                                transition: box-shadow 0.2s, border 0.2s;
+                            }
+                            .custom-close-highlight:focus, .custom-close-highlight:hover {
+                                box-shadow: 0 4px 16px rgba(7,57,106,0.25);
+                                border: 2px solid #052d54;
+                                background: #07396a !important;
+                                color: #fff !important;
+                            }
+                            /* Make sure the close icon is visible */
+                            .custom-close-highlight::after {
+                                content: '\00d7';
+                                font-size: 1.5rem;
+                                color: #07396a;
+                                display: block;
+                                margin: auto;
+                                font-weight: bold;
+                            }
+                            .custom-close-highlight .btn-close {
+                                filter: none !important;
+                            }
+                            </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // Show modal on catalogue dropdown click
+            document.querySelectorAll('.catalogue-option').forEach(function(el) {
+                el.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    // Set download link text and href based on option
+                    let type = el.getAttribute('data-catalogue');
+                    let link = '#';
+                    let text = 'Download Catalogue';
+                    if(type==='complete') { link = 'catalogue-complete.pdf'; text = 'Download Complete Catalogue'; }
+                    if(type==='new') { link = 'catalogue-new-edition.pdf'; text = 'Download New Edition Catalogue'; }
+                    if(type==='price') { link = 'catalogue-price-list.pdf'; text = 'Download Price List Catalogue'; }
+                    document.getElementById('downloadLink').href = link;
+                    document.getElementById('downloadLink').textContent = text;
+                    // Reset forms
+                    document.getElementById('catalogueForm').style.display = '';
+                    document.getElementById('codeForm').style.display = 'none';
+                    document.getElementById('downloadSection').style.display = 'none';
+                    document.getElementById('catalogueForm').reset();
+                    document.getElementById('codeForm').reset();
+                    var modal = new bootstrap.Modal(document.getElementById('catalogueModal'));
+                    modal.show();
+                });
+            });
+            // On form submit, show code input
+            document.getElementById('catalogueForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                document.getElementById('catalogueForm').style.display = 'none';
+                document.getElementById('codeForm').style.display = '';
+            });
+            // On code submit, show download
+            document.getElementById('codeForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                // For now, any code is accepted
+                document.getElementById('codeForm').style.display = 'none';
+                document.getElementById('downloadSection').style.display = '';
+            });
+        </script>
+
+        <!-- Remove '#' from URL after Google Translate dropdown and close menu -->
+        <script>
+            // Remove '#' from URL as soon as it appears
+            function removeHash() {
+                if (window.location.hash && window.location.hash.startsWith('#googtrans')) {
+                    history.replaceState(null, '', window.location.pathname + window.location.search);
+                }
+            }
+            window.addEventListener('hashchange', removeHash);
+            // Also check periodically in case hashchange doesn't fire
+            setInterval(removeHash, 300);
+
+            // Close Google Translate dropdown when clicking outside
+            document.addEventListener('click', function(e) {
+                var menuFrame = document.querySelector('.goog-te-menu-frame');
+                if (menuFrame && menuFrame.style.display !== 'none') {
+                    if (!menuFrame.contains(e.target)) {
+                        menuFrame.style.display = 'none';
+                    }
+                }
+            });
+        </script>
+        <script>
+            // Remove '#' from URL when Google Translate dropdown is used
+            window.addEventListener('hashchange', function() {
+                if (window.location.hash === '#googtrans(en|en)' || window.location.hash.startsWith('#googtrans')) {
+                    history.replaceState(null, '', window.location.pathname + window.location.search);
+                }
+            });
+
+            // Close Google Translate dropdown when clicking outside
+            document.addEventListener('click', function(e) {
+                var menuFrame = document.querySelector('.goog-te-menu-frame');
+                if (menuFrame && menuFrame.style.display !== 'none') {
+                    if (!menuFrame.contains(e.target)) {
+                        menuFrame.style.display = 'none';
+                    }
+                }
+            });
+        </script>
+
+    <script>
+        // Rotating Tagline Script
+        const taglines = [
+            "Serving Since 1960 • Engineering Excellence",
+            "Quality • Innovation • Reliability",
+            "Leading Automotive Solutions India"
+        ];
+
+        let currentIndex = 0;
+        const taglineElement = document.getElementById('rotatingTagline');
+
+        function rotateTagline() {
+            // Add fade class
+            taglineElement.classList.add('tagline-fade');
+
+            setTimeout(() => {
+                // Change text
+                currentIndex = (currentIndex + 1) % taglines.length;
+                taglineElement.textContent = taglines[currentIndex];
+
+                // Remove fade class
+                taglineElement.classList.remove('tagline-fade');
+            }, 250);
+        }
+
+        // Start rotation after page load
+        setTimeout(() => {
+            setInterval(rotateTagline, 3000);
+        }, 3000);
+    </script>
+
+
+    <script>
+        (function() {
+            var map = AmCharts.makeChart("chartdiv", {
+                type: "map",
+                theme: "none",
+                projection: "miller",
+                backgroundColor: "#f4f8fb",
+                backgroundAlpha: 1,
+                zoomControl: { zoomControlEnabled: false },
+                areasSettings: {
+                    unlistedAreasColor: "#cdd8e3",
+                    unlistedAreasOutlineColor: "#ffffff",
+                    unlistedAreasOutlineAlpha: 1,
+                    color: "#07396a",
+                    outlineColor: "#ffffff",
+                    outlineAlpha: 1,
+                    outlineThickness: 0.7,
+                    rollOverColor: "#0a5fa8",
+                    rollOverOutlineColor: "#ffffff",
+                    selectedColor: "#0a5fa8",
+                    balloonText: ""
+                },
+                imagesSettings: {
+                    balloonText: "",
+                    labelFontFamily: "Poppins, sans-serif",
+                    labelFontSize: 13,
+                    labelFontColor: "#ffffff",
+                    labelFontWeight: "700",
+                    labelPosition: "bottom",
+                    color: "#ffffff",
+                    outlineColor: "#07396a",
+                    outlineThickness: 2,
+                    rollOverColor: "#ffffff",
+                    selectedColor: "#ffffff"
+                },
+                balloon: { enabled: false },
+                dataProvider: {
+                    map: "worldLow",
+                    areas: [
+                        { id: "IN", color: "#07396a", rollOverColor: "#0a5fa8" },
+                        { id: "NG", color: "#07396a", rollOverColor: "#0a5fa8" },
+                        { id: "LK", color: "#07396a", rollOverColor: "#0a5fa8" },
+                        { id: "EG", color: "#07396a", rollOverColor: "#0a5fa8" }
+                    ],
+                    images: [
+                        { type: "circle", scale: 0.01, title: "India",     latitude: 20.59, longitude: 78.96,  color: "transparent", outlineAlpha: 0 },
+                        { type: "circle", scale: 0.01, title: "Nigeria",   latitude: 9.08,  longitude: 8.67,   color: "transparent", outlineAlpha: 0 },
+                        { type: "circle", scale: 0.01, title: "Sri Lanka", latitude: 7.87,  longitude: 80.77,  color: "transparent", outlineAlpha: 0 },
+                        { type: "circle", scale: 0.01, title: "Egypt",     latitude: 26.82, longitude: 30.80,  color: "transparent", outlineAlpha: 0 }
+                    ]
+                }
+            });
+        })();
+    </script>
+    <script>
+  // Close Google Translate dropdown when clicking outside
+  document.addEventListener('click', function(e) {
+    // Check if the Google Translate menu frame exists
+    var menuFrame = document.querySelector('.goog-te-menu-frame');
+    if (menuFrame) {
+      // If the click is outside the menu frame, hide it
+      if (!menuFrame.contains(e.target)) {
+        menuFrame.style.display = 'none';
+      }
+    }
+  });
+</script>
+
+<!-- Scroll-top repositioned above WhatsApp button -->
+<style>
+    .scroll-top {
+        bottom: 100px !important;
+        right: 30px !important;
+    }
+</style>
+
+<!-- WhatsApp Floating Button -->
+<style>
+    .whatsapp-float {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 58px;
+        height: 58px;
+        background-color: #25d366;
+        color: #ffffff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        box-shadow: 0 4px 16px rgba(37, 211, 102, 0.45);
+        z-index: 9999;
+        text-decoration: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .whatsapp-float:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 24px rgba(37, 211, 102, 0.65);
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .whatsapp-float i {
+        line-height: 1;
+    }
+    /* Section Divider */
+    .section-divider {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 2px;
+        border: none;
+        background: linear-gradient(90deg, transparent 0%, #07396a 30%, #0a6aaa 50%, #07396a 70%, transparent 100%);
+        border-radius: 4px;
+        opacity: 0.35;
+        display: block;
+    }
+    /* Pulse animation */
+    .whatsapp-float::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: rgba(37, 211, 102, 0.4);
+        animation: whatsapp-pulse 2s ease-out infinite;
+        z-index: -1;
+    }
+    @keyframes whatsapp-pulse {
+        0%   { transform: scale(1); opacity: 0.8; }
+        100% { transform: scale(1.7); opacity: 0; }
+    }
+</style>
+<a href="https://wa.me/+919999071727" class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+</body>
+
+</html>
