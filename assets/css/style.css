@@ -25759,13 +25759,13 @@ input {
 }
 
 .category-card .box-icon {
-    width: 140px;
-    height: 140px;
+     width: 210px;
+    height: 117px;
     line-height: 140px;
     background-color: #fff;
     margin: 0 auto 20px auto;
-    border-radius: 50%;
-    outline: 4px solid #07396a;
+    /* border-radius: 50%;
+    outline: 4px solid #07396a; */
 }
 
 .category-card .box-title {
@@ -25775,6 +25775,18 @@ input {
     transition: .1s;
     margin-top: 30px;
     line-height: 19px;
+}
+.custom-close-highlight::after {
+    content: '\00d7';
+    font-size: 1.5rem;
+    color: #07396A !important;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+}
+
+.custom-close-highlight:hover::after {
+    color: #fff !important;
 }
 
 .category-card .box-title span {

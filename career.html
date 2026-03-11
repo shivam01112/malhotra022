@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/app.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/fav-icon.jpg" type="image/x-icon">
     <!-- Page-specific dark theme styles -->
 
   </head>
@@ -428,6 +429,98 @@
    
 
     <!-- Modern Dark Theme Footer -->
+       <div class="modal fade custom-modal-shadow" id="catalogueModal" tabindex="-1" aria-labelledby="catalogueModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content modal-red-shadow" style="background: #ffffff; color: #1a1a1a; border-radius: 18px; border: none;">
+                    <div class="modal-header" style="background: #ffffff; border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom: 1.5px solid #07396a; box-shadow: none;">
+                        <h5 class="modal-title" id="catalogueModalLabel" style="color: #07396a; font-weight: 700; letter-spacing: 0.5px; font-size: 1.18rem;">Catalogue Download Request</h5>
+                        <button type="button" class="btn-close custom-close-highlight" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="background: #ffffff; color: #1a1a1a;">
+                        <form id="catalogueForm">
+                            <div class="mb-3">
+                                <label for="companyName" class="form-label" style="color:#1a1a1a; font-weight:600;">Company Name</label>
+                                <input type="text" class="form-control" id="companyName" required="" style="background: #f4f7fb; color:#1a1a1a; border: 1.5px solid #c8d8eb; border-radius:7px; font-size:1rem;">
+                            </div>
+                            <div class="mb-3">
+                                <label for="personName" class="form-label" style="color:#1a1a1a; font-weight:600;">Person Name</label>
+                                <input type="text" class="form-control" id="personName" required="" style="background: #f4f7fb; color:#1a1a1a; border: 1.5px solid #c8d8eb; border-radius:7px; font-size:1rem;">
+                            </div>
+                            <div class="mb-3">
+                                <label for="businessType" class="form-label" style="color:#1a1a1a; font-weight:600;">Business Type</label>
+                                <select class="form-select" id="businessType" required="" style="background: #f4f7fb; color:#1a1a1a; border: 1.5px solid #c8d8eb; border-radius:7px; font-size:1rem;">
+                                    <option value="">Select</option>
+                                    <option value="Distributor">Distributor</option>
+                                    <option value="Retailer">Retailer</option>
+                                    <option value="Mechanic">Mechanic</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phoneNumber" class="form-label" style="color:#1a1a1a; font-weight:600;">Phone Number</label>
+                                <input type="tel" class="form-control" id="phoneNumber" required="" style="background: #f4f7fb; color:#1a1a1a; border: 1.5px solid #c8d8eb; border-radius:7px; font-size:1rem;">
+                            </div>
+                            <button type="submit" class="btn w-100" style="background: linear-gradient(135deg, #07396a 0%, #0a6aaa 100%); color: #fff; font-weight: 600; border-radius: 7px; border: none; box-shadow: 0 2px 8px rgba(7,57,106,0.18); font-size:1.08rem;">Submit</button>
+                        </form>
+                        <form id="codeForm" style="display:none;">
+                            <div class="mb-3">
+                                <label for="downloadCode" class="form-label" style="color:#1a1a1a; font-weight:600;">Enter Download Code</label>
+                                <input type="text" class="form-control" id="downloadCode" required="" style="background: #f4f7fb; color:#1a1a1a; border: 1.5px solid #c8d8eb; border-radius:7px; font-size:1rem;">
+                            </div>
+                            <button type="submit" class="btn w-100" style="background: linear-gradient(135deg, #07396a 0%, #0a6aaa 100%); color: #fff; font-weight: 600; border-radius: 7px; border: none; box-shadow: 0 2px 8px rgba(7,57,106,0.18); font-size:1.08rem;">Verify & Download</button>
+                        </form>
+                        <div id="downloadSection" style="display:none;">
+                            <div class="alert alert-success" style="background: #eaf3ff; color: #07396a; border: 1.5px solid #07396a; font-weight:600;">Code verified! Click below to download:</div>
+                            <a id="downloadLink" href="#" class="btn w-100" style="background: linear-gradient(135deg, #07396a 0%, #0a6aaa 100%); color: #fff; font-weight: 600; border-radius: 7px; border: none; box-shadow: 0 2px 8px rgba(7,57,106,0.18); font-size:1.08rem;" download="">Download Catalogue</a>
+                        </div>
+                            <style>
+                            /* Restore default modal backdrop */
+                            .modal-backdrop.show {
+                                background: rgba(34,34,34,0.65);
+                                backdrop-filter: blur(2.5px);
+                            }
+                            /* Red shadow only on modal border */
+                            .modal-red-shadow {
+                                box-shadow: 0 0 0 4px rgba(7,57,106,0.20), 0 12px 48px 0 rgba(7,57,106,0.15);
+                            }
+                            .custom-close-highlight {
+                                background: #f4f7fb;
+                                border-radius: 50% !important;
+                                opacity: 1 !important;
+                                box-shadow: 0 2px 8px rgba(7,57,106,0.12);
+                                color: #07396a !important;
+                                width: 36px;
+                                height: 36px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 1.5rem;
+                                border: 2px solid #07396a;
+                                transition: box-shadow 0.2s, border 0.2s;
+                            }
+                            .custom-close-highlight:focus, .custom-close-highlight:hover {
+                                box-shadow: 0 4px 16px rgba(7,57,106,0.25);
+                                border: 2px solid #052d54;
+                                background: #07396a !important;
+                                color: #fff !important;
+                            }
+                            /* Make sure the close icon is visible */
+                            .custom-close-highlight::after {
+                                content: '\00d7';
+                                font-size: 1.5rem;
+                                color: #07396a;
+                                display: block;
+                                margin: auto;
+                                font-weight: bold;
+                            }
+                            .custom-close-highlight .btn-close {
+                                filter: none !important;
+                            }
+                            </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     <footer class="footer-dark">
         <!-- Newsletter Section -->
 
@@ -503,7 +596,7 @@
                                     </div>
                                     <div class="contact-details">
                                         <p class="contact-label">Address</p>
-                                        <p class="contact-text">123 Engineering Street, Industrial Area</p>
+                                        <p class="contact-text">D-38, Sector A-2, Tronica City, Loni Ghaziabad, Uttar Pradesh-201102 (INDIA) B-36, G.T. Karnal Road, Industrial Area, Delhi-110033 (INDIA)</p>
                                     </div>
                                 </div>
                                 <div class="contact-item">
@@ -540,13 +633,13 @@
                             &copy; 2025 Malhotra Engineering. All Rights Reserved.
                         </p>
                     </div>
-                    <div class="col-md-6 text-md-end">
+                     <!-- <div class="col-md-6 text-md-end">
                         <ul class="footer-bottom-menu">
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms & Conditions</a></li>
                             <li><a href="#">Sitemap</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
