@@ -2260,15 +2260,16 @@ textarea.is-invalid {
 }
 
 .th-menu-wrapper .mobile-logo img {
-    width: 190px
+    width: 190px;
+    background: #07396a;
+    border-radius: 9px;
 }
-
 .th-menu-wrapper .th-menu-toggle {
     border: none;
     font-size: 22px;
     position: absolute;
-    right: -16.5px;
-    top: 25px;
+    right: 0px;
+    top: 0px;
     padding: 0;
     line-height: 1;
     width: 33px;
@@ -2276,9 +2277,9 @@ textarea.is-invalid {
     line-height: 35px;
     font-size: 18px;
     z-index: 1;
-    color: var(--white-color);
+    color: #07396a !important;
     background-color: var(--theme-color);
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .th-menu-wrapper .th-menu-toggle:hover {
@@ -8264,7 +8265,7 @@ ol.wp-block-rss {
 }
 
 .header-layout2 .main-menu>ul>li:hover {
-    background: #fff;
+    background: #07396a;
 }
 
 .header-layout2 .main-menu>ul>li:hover:before {
@@ -8272,7 +8273,7 @@ ol.wp-block-rss {
 }
 
 .header-layout2 .main-menu>ul>li:hover:after {
-    background: #252525
+    background: #f4f7fb
 }
 
 .header-layout2 .main-menu ul li:hover.menu-item-has-children>a::after {
@@ -30890,9 +30891,9 @@ box-shadow: 0 6px 25px rgb(126 200 247);
         }
 
         .header-logo .logo-row a img {
-            height: 42px !important;
-            max-width: 224px;
-        }
+    height: 25px !important;
+    max-width: 224px;
+}
 
         .header-logo .logo-row span {
             font-size: 1.4rem !important;
@@ -30900,18 +30901,18 @@ box-shadow: 0 6px 25px rgb(126 200 247);
   
         /* Responsive header logo row */
         .header-logo .logo-row {
-            display: flex;
-            align-items: center;
-            gap: 28px;
-            flex-wrap: nowrap;
-        }
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    flex-wrap: nowrap;
+}
 
         @media (max-width: 576px) {
             .header-logo .logo-row {
-                flex-direction: column;
+                flex-direction: row;
                 gap: 10px;
-                align-items: flex-start;
-                justify-content: center;
+                align-items: center;
+                flex-wrap: nowrap;
                 width: 100%;
             }
 
@@ -31010,10 +31011,10 @@ box-shadow: 0 6px 25px rgb(126 200 247);
                             min-width: 0;
                         }
 
-                        .custom-header-search-bar input[type="text"] {
-                            font-size: 0.98rem;
-                            padding: 8px 10px 8px 10px;
-                        }
+                           .custom-header-search-bar input[type="text"] {
+        font-size: 14px;
+        padding: 8px 10px 8px 10px;
+    }
 
                         .custom-header-search-bar button {
                             width: 38px;
@@ -31110,4 +31111,159 @@ box-shadow: 0 6px 25px rgb(126 200 247);
       .footer-bottom-menu a:hover {
         color: #ffffff !important;
       }
+
+  
     
+
+/* ============================================================
+   MOBILE VIEW FIXES  (≤ 767px)
+   ============================================================ */
+@media (max-width: 767px) {
+
+  /* ── TOP BAR ── */
+  .header-top-bar {
+    padding: 8px 12px !important;
+  }
+
+  .header-top-content {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+  }
+
+  /* Phone + Email row */
+  .header-contact-group {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    width: 100% !important;
+  }
+
+  .header-contact-group a {
+    font-size: 12px !important;
+  }
+
+  /* Search bar: full width, clean */
+  .custom-header-search-bar {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  /* Hide Contact Us button — mobile has hamburger/menu */
+  .header-contact-btn {
+    display: none !important;
+  }
+
+  /* ── HEADER / LOGO ROW ── */
+  /* Prevent Bootstrap row from wrapping — logos + hamburger on one line */
+  .header-layout2 .menu-area .row {
+    flex-wrap: nowrap !important;
+  }
+
+  /* Logo col: don't grow, allow shrink */
+  .header-layout2 .menu-area .row > .col-auto:first-child {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+  }
+
+  /* Hamburger col: never shrink, always on right */
+  .header-layout2 .menu-area .row > .col-auto:nth-child(2) {
+    flex: 0 0 auto !important;
+  }
+
+  /* Keep logo row as a single horizontal row — never stack */
+  .header-logo .logo-row {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    gap: 8px !important;
+    overflow: hidden !important;
+  }
+
+  /* All 3 logos visible on mobile — shrunk to fit row */
+  .header-logo .logo-row a:nth-child(1) img {
+    width: 100px !important;
+    height: auto !important;
+  }
+
+  .header-logo .logo-row a:nth-child(2) {
+    display: flex !important;
+  }
+  .header-logo .logo-row a:nth-child(2) img {
+    height: 26px !important;
+    width: auto !important;
+  }
+
+  .header-logo .logo-row a:nth-child(3) {
+    display: flex !important;
+  }
+  .header-logo .logo-row a:nth-child(3) img {
+    height: 18px !important;
+    width: auto !important;
+    margin-top: 4px !important;
+  }
+
+  /* Compact menu area padding */
+  
+        .header-layout2 .menu-area {
+        padding: 0px 0px !important;
+    }
+  
+
+  /* Hamburger button — ensure visible and aligned */
+  .th-menu-toggle {
+    font-size: 22px !important;
+    color: #ffffff !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 4px 8px !important;
+    line-height: 1 !important;
+  }
+}
+
+
+ .header-logo .logo-row a:nth-child(1) img {
+    width:200px !important;
+    height: auto !important;
+  }
+
+   .header-logo .logo-row a:nth-child(2) img {
+    height: 44px !important;
+    max-width: 224px;
+  }
+  .header-logo .logo-row a:nth-child(3) img {
+     height: 28px !important;
+    max-width: 224px;
+  }
+
+  /* ── Extra small (≤ 480px) ── */
+@media (max-width: 480px) {
+  .header-contact-group a span,
+  .header-contact-group a {
+    font-size: 11px !important;
+  }
+
+  .header-logo .logo-row a:nth-child(1) img {
+    width: 120px !important;
+      /* height: 34px !important; */
+  }
+  .header-logo .logo-row a:nth-child(2) img {
+      height: 27px !important;
+    max-width: auto !important;
+  }
+  .header-logo .logo-row a:nth-child(3) img {
+        height: 17px !important;
+    max-width: auto !important;
+  }
+  .swiper-pagination-bullets {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    margin: -4px 0 -7px 0 !important;
+    line-height: 10px;
+    height: 10px;
+}
+}
